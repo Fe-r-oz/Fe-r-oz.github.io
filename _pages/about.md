@@ -21,5 +21,3 @@ I received my Bachelor's degree from [National University of Computer and Emergi
 
 
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0EqqSVzZT5Wst5UrWI0-UZikD42NnE95m4E3f3XHYtU"></script>
-
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0EqqSVzZT5Wst5UrWI0-UZikD42NnE95m4E3f3XHYtU"></script>
