@@ -15,7 +15,7 @@ redirect_from:
   * Thesis: [System-on-Chip based Deep Learning Accelerator for ECG Classification](https://drive.google.com/file/d/1Hf5TzoBrv4sndfoux04q8yrBUtrl11RA/view?usp=sharing)
  
 ## Work experience
-* **Quantum Error Correction Julia Developer**, March, 2024 - Present
+* **Quantum Error Correction Julia Developer**, March 2024 - Present
   * Package: QuantumClifford.jl
   * Implementation of classical Reed-Muller codes, Reed-Solomon codes and Bose–Chaudhuri–Hocquenghem
 codes, important subroutines for Quantum codes in Julia
