@@ -45,34 +45,3 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
   * Completed a literature review of the current emerging technologies in the monitoring of processes in the powerhouse facility.
   * Provided recommendations and suggestions for how Machine Learning can be used to improve the efficiency, reliability, and profitability of hydro power powerhouses.
   * Supervisor: Mr. Ahmad Kamal
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
