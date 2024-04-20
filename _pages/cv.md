@@ -11,10 +11,11 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
+* B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, 2023
+  **Research Interests:** Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
+  **Supervisor:** [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198)
+  **Thesis:** [System-on-Chip based Deep Learning Accelerator for ECG Classification](https://drive.google.com/file/d/1Hf5TzoBrv4sndfoux04q8yrBUtrl11RA/view?usp=sharing)
+ 
 Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
