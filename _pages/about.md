@@ -7,15 +7,18 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 I received my Bachelor's degree from [National University of Computer and Emerging Sciences](https://lhr.nu.edu.pk/) in Lahore, Punjab, PK, where I worked with 
  [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
-
+ 
 # Education
 * **National University of Computer and Emerging Sciences**. Electrical Engineering Fall 2019 - Spring 2023
 
-# Awards and Honors
+# Research Interests 
+* **Research Area**: Quantum Information Science and Engineering 
+* I am captivated by interdisciplinary research due to its capacity to blend insights from various fields, utilizing a broad repository of knowledge that is incredibly effective in tackling complex, real-life problems.
+* I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
 
+# Awards and Honors
 * Akhlaque Hussain Bronze Medal - (Fall 2019 to Spring 2023) - BS(EE), Third Position in Batch 2019, Nov 2023
 * FIRST Place @ WOMANIUM Global Quantum Media Award, Sep 2023
 * Full Scholarship QxQ Introduction to Quantum Computing, Sep 2023
