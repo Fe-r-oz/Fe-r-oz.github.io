@@ -33,6 +33,11 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
   * Research Output: [SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML](https://ieeexplore.ieee.org/document/10399904)
   * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198)
 
+* Quantum Computing Fellow, Sep 2023 - Present
+   * Organization: Womanium
+   * Co-authored a case study titled ’Quantum Solutions Launchpad-Xanadu-Linear Combination of Unitaries decompositions’ with Mojde Fadaie. Work Arrangement: Remote
+   * Authored the following sections in case study namely 1) Quantum Chemistry, 2) Unitarity from Marginal Probability Preservation in Quantum Mechanics, 3) Hamiltonian and Unitary Evolution in Quantum Systems, 4) LCU Method in Quantum Chemistry
+
 * Global Quantum Computing Scholar, July 2023 - Aug 2023
   * Organization: Womanium
   * 16x Publications on Medium with comprehensive analysis of the fundamentals as well as latest advancements on Superconducting, Neutral Atom, Photonic, Silicon, and Trapped Ion Quantum Computing.
