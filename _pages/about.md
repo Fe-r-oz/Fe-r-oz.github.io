@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Education
+## Education
 ======
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, 2023
   * Research Interests: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
   * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
   * Thesis: [System-on-Chip based Deep Learning Accelerator for ECG Classification](https://drive.google.com/file/d/1Hf5TzoBrv4sndfoux04q8yrBUtrl11RA/view?usp=sharing)
  
-Work experience
+## Work experience
 ======
 * Quantum Error Correction Julia Developer, March, 2024 - Present
   * Package: QuantumClifford.jl
@@ -50,12 +50,12 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
   * Provided recommendations and suggestions for how Machine Learning can be used to improve the efficiency, reliability, and profitability of hydro power powerhouses.
   * Supervisor: Mr. Ahmad Kamal
  
-# Research Interests 
+## Research Interests 
 * **Research Area**: Quantum Information Science and Engineering 
 * I am captivated by interdisciplinary research due to its capacity to blend insights from various fields, utilizing a broad repository of knowledge that is incredibly effective in tackling complex, real-life problems.
 * I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
 
-# Awards and Honors
+## Awards and Honors
 * Akhlaque Hussain Bronze Medal - (Fall 2019 to Spring 2023) - BS(EE), Third Position in Batch 2019, Nov 2023
 * FIRST Place @ WOMANIUM Global Quantum Media Award, Sep 2023
 * Full Scholarship QxQ Introduction to Quantum Computing, Sep 2023
@@ -79,8 +79,7 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
 
 Note: ""Working on this site. It's not fully setup!""
 
-# Publications
-
+## Publications
 * **Feroz Ahmad**, Saima Zafar, "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
 
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0EqqSVzZT5Wst5UrWI0-UZikD42NnE95m4E3f3XHYtU"></script>
