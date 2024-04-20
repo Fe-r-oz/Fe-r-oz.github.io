@@ -29,6 +29,11 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
   * Worked on high level synthesis (HLS) based hardware-software co-design flow deep learning accelerators for human bio-potential classification with implementation on System on chip (SoCs)
   * Research Output: [SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML](https://ieeexplore.ieee.org/document/10399904)
   * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198)
+ 
+* **Quantum Computing Scholar**, Sep 2023 - Present
+  * Organization: The Coding School
+  * Accepted into The Coding School’s-Qubit by Qubit: Introduction to Quantum Computing course, a two-semester program which provides a comprehensive introduction to quantum computing, covering topics like quantum mechanics, quantum information and computation, and quantum hardware.
+  * Semester 1 and 2: Grade: A
 
 * **Quantum Computing Fellow**, Sep 2023 - Present
    * Organization: Womanium
@@ -53,6 +58,44 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
 * I am captivated by interdisciplinary research due to its capacity to blend insights from various fields, utilizing a broad repository of knowledge that is incredibly effective in tackling complex, real-life problems.
 * I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
 
+## Courses and Certifications
+* **Machine Learning Specialization** (3x Courses) by **Stanford** Online
+  * Explored supervised ML (linear regression, logistic regression, neural networks, decision trees), unsupervised ML(clustering, anomaly detection), recommender systems, and RL.
+* **Deep Learning Specialization** (5x Courses) by **DeepLearning.AI**
+  * Mastered neural networks (CNNs, RNNs, LSTMs, Transformers) and optimization (Dropout, BatchNorm, Xavier/He) in Python and TensorFlow.
+* **IBM Qiskit Global Summer School 2023: From Theory to Implementation**
+  * Finished with: Grade 100%, Rank 90/5000 (94%), Time Spent 1.5 Days.
+* **Bayesian Statistics: From Concept to Data Analysis (with Honors)**
+  * Learned Bayesian reasoning, parameter estimation, model comparison, and hypothesis testing. Acquired skills to apply Bayesian methods to real-world data for insightful conclusions.
+* **QNickel: Quantum Algorithms and Programming**
+  * Implemented Grover’s Algorithm for solution of Max Cut Problem. Introduction to Cirq and programmning quantum algorithms like Simon’s Algorithms in Qiskit. Acquired skills to apply Bayesian methods to real-world data for insightful conclusions.
+* **QBronze**
+  * Introduction to classical and quantum systems,Quantum Operators on a qubit, Entanglement and quantum protocols along with intro to Grover’s Algorithms covered.
+* **Quantum Error Correction**
+  * Topics covered: Quantum repetition code for bit-flips, Quantum repetition code for phase-flips, The Shor Code, Syndrome measurements, Stabilizer groups, Stabilizer codes, Syndrome Measurements for Stabilizer codes, Introduction to Stac.
+* **Quantum Key Distribution**
+  * Topics covered: Classical Cryptography and limitations, Quantum Characteristics leading to BB84 Protocol, QKD with noise, Entanglement-based QKD
+* **Quantum Computing Hardware**
+  * Completed the Module 95% passing completing quizzes on Neutral Atom, Superconducting, Photonic, Silicon-based, Trapped-Ion based Quatum Computing and Quantum Annealing
+* **Quantum Computing Software (Industry Bootcamps)**
+  *  Gained expertise in advanced quantum tools and platforms, quantum algorithms, and optimization techniques, to enhance proficiency in neutral atom computing, QML, and QUBO problem-solving.
+* **FPGA computing systems: A Bird’s Eye View**
+  * Explored the automatic adaptation of computing systems in response to dynamic environments, introducing FPGA technologies for efficient (re)configuration during execution.
+* **Hands-on Quantum Algorithms Development with Classiq**
+  * Hands-on workshop exploring Classiq, a quantum software framework for designing, debugging, and deploying complex quantum circuits and algorithms.
+* **Game Theory by Standford Online**
+  * Gained a foundational understanding of Game Theory, covering topics like game representation, extensive form (game trees), Bayesian games, repeated and stochastic games, and coalition games.
+* **Welcome to Game Theory (with Honors) by The University of Tokyo**
+  * Explored fundamental Game Theory concepts, including equilibrium, rationality, and cooperation developing a conceptual understanding of strategic scenarios in diverse fields such as business, and biology.
+* **Microeconomics: The Power of Markets by UPenn**
+  * An introductory course on microeconomic theory exploring markets, scarcity, specialization, supply and demand, government intervention, and their impact on real-life goods and services.
+* **Sharpened Visions: A Poetry Workshop by California Institute of Arts**
+  * Comprehensive poetry course exploring Abstraction and Image, Metaphor and Other Formulas of Difference, Rhyme, and Rhythm, empowering participants to create refined and evocative poems.
+* **Bayesian Statistics: Time Series Analysis**
+  * 5-module course: Stationary time series, autoregressive models, Bayesian inference, Normal Dynamic Linear Models (NDLMs), and Final Project on Google Trend data using NDLMs.
+* **Introduction to Philosophy**
+  * Explored contem porary philosophy in diverse areas like Epistemology, Philosophy of Science, Philosophy of Mind, Political Philosophy, Moral Philosophy, and Metaphysics.
+ 
 ## Awards and Honors
 * Akhlaque Hussain Bronze Medal - (Fall 2019 to Spring 2023) - BS(EE), Third Position in Batch 2019, Nov 2023
 * FIRST Place @ WOMANIUM Global Quantum Media Award, Sep 2023
@@ -73,7 +116,6 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
 * [Inducted in Dean's List Semester 02: Spring 2020](https://www.nu.edu.pk/Campus/Lahore/DeanLists)
 * [Inducted In Dean's List Semester 01: Fall 2019](https://www.nu.edu.pk/Campus/Lahore/DeanLists)
 * [Bronze Medalist Bronze Medal for Semester I, Batch 2019](https://www.nu.edu.pk/Campus/Lahore/DeanLists)
-
 
 Note: ""Working on this site. It's not fully setup!""
 
