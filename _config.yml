@@ -21,7 +21,7 @@ repository               : "Fe-r-oz/Fe-r-oz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "FerozAhmad.jpg"
+  avatar           : "FerozAhmad.png"
   name             : "Feroz Ahmad"
   pronouns         :   
   bio              : "Prospective PhD/Masters Student in Quantum Information Science and Engineering"
