@@ -61,9 +61,12 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
 ## University Projects
 * **System on Chip -based Deep Learning Accelerator for ECG Classification**
   * Using High level synthesis based hardware-software codesign workflow to designing and implementing convolutional neural accelerator for ECG Arrhythmia Classification using fully open source workflow
+  * Project Demonstrations: [Real-Time Demonstration](https://drive.google.com/file/d/11NER5rYtfMe7j5IyV6gFbEhFXv7qvngh/view?usp=sharing), [Investigation and Testing](https://drive.google.com/file/d/1DLl6uXcefTzakWTSMXCKL0XQ-6ty9vLh/view?usp=sharing), [High Level Synthesis](https://drive.google.com/file/d/1D1L7VW7wPGFh4X2ThIeDf2wji_eQjKVp/view?usp=sharing)
+  * Project funded by [National Grassroot ICT Research Initivative (NGIRI) IGNITE FYP Funding!](https://ignite.org.pk/wp-content/uploads/2018/06/NGIRI-2022-23-List-of-Shortlisted-FYPs.pdf)
 * **Hardware Implementation of Pulse Width Modulation**
   * Simulation of Pulse Width Modulation using Simulink, Proteus 8.9 Professional, MATLAB along with hardware implementation.
   * Dimming Effect video along with the waveform video is presented as well.
+  * Project Demonstrations: [Pulse Width Modulated Waveform](https://drive.google.com/file/d/1Euf0GnOQt1OZg48J_G98ttEPd1I_huzL/view?usp=sharing), [Dimming Effect due to PWM Waveform](https://drive.google.com/file/d/1PuWWsn8yBvko8I4AIpJzoWOh2S7COG2U/view?usp=sharing), [Design Simulation](https://drive.google.com/file/d/1bReUumJahM-54HgRhMCEmbSPBZZNymhr/view?usp=sharing)
 * **Single-Cycle, Multicycle & Pipelined RISC-V Processor Design**
   * Datapath design for R-Type, S-Type, I-Type, J-Type Instructions. Controller Design (Main Decoder Design, ALU Decoder Design).
   * RTL Simulation and Test-bench in Verilog. Theory to Implementation
