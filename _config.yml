@@ -336,4 +336,4 @@ compress_html:
   ignore:
     envs: development
 
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
