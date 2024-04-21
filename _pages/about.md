@@ -43,7 +43,7 @@ is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
 * **Global Quantum Computing Scholar**, July 2023 - Aug 2023
   * Organization: Womanium
   * 16x Publications on Medium with comprehensive analysis of the fundamentals as well as latest advancements on Superconducting, Neutral Atom, Photonic, Silicon, and Trapped Ion Quantum Computing.
-  * Founded Quantum Engineering Publication, to promote Quantum Education In Pakistan.
+  * Founded [Quantum Engineering Publication](https://pragmaticlyabstract.medium.com/list/quantum-computingengineering-a2f46166b8b7), to promote Quantum Education In Pakistan.
   * Led Womanium Global Media Project Initiative on LinkedIn, Twitter and Medium.
 
 * **Officier Under Training**, June 2022 - Sep 2022
