@@ -311,4 +311,4 @@ compress_html:
   ignore:
     envs: development
 
-theme: jekyll-theme-architect@v0.2.0
+theme: jekyll-theme-architect
