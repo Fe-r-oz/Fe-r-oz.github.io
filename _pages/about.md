@@ -19,7 +19,7 @@ redirect_from:
   * Package: QuantumClifford.jl
   * Implementation of linear codes such as classical Reed-Muller codes, abstract polynomial codes such as Reed-Solomon codes and Bose–Chaudhuri–Hocquenghem
 codes, and abstract algebraic codes such as Goppa codes, important subroutines for Quantum codes in Julia.
-  * co-implementation of Steane-Reed-Muller codes where classical RM(r,m) is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
+  * Implementation of Steane-Reed-Muller codes where classical RM(r,m) is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
   * Reviewers: [Prof. Dr. Stefan Krastanov](https://blog.krastanov.org/staticprerenders/resume.html)
 
 * **Research Assistant**, NUCES, Feb 2023 - Feb 2024
