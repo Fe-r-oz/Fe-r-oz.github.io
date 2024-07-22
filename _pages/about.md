@@ -128,7 +128,7 @@ redirect_from:
   * Explored contem porary philosophy in diverse areas like Epistemology, Philosophy of Science, Philosophy of Mind, Political Philosophy, Moral Philosophy, and Metaphysics.
  
 ## Awards and Honors
-* [3rd Place on the LeaderBoard](https://unitaryhack.dev/leaderboard/), unitaryHack, 2024 organized by the UnitaryFund. Contributed to Braket.jl, BraketSimulator and Piccolo.jl. 
+* [3rd Place on the Leaderboard](https://unitaryhack.dev/leaderboard/), unitaryHack, 2024 organized by the UnitaryFund. Contributed to Braket.jl, BraketSimulator and Piccolo.jl. 
 * Akhlaque Hussain Bronze Medal - (Fall 2019 to Spring 2023) - BS(EE), Third Position in Batch 2019, Nov 2023
 * FIRST Place @ WOMANIUM Global Quantum Media Award, Sep 2023
 * Full Scholarship QxQ Introduction to Quantum Computing, Sep 2023
