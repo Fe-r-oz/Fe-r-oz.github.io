@@ -15,6 +15,12 @@ redirect_from:
   * Thesis: [System-on-Chip based Deep Learning Accelerator for ECG Classification](https://drive.google.com/file/d/1Hf5TzoBrv4sndfoux04q8yrBUtrl11RA/view?usp=sharing)
  
 ## Work experience
+
+* **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
+  * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
+  * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
+  * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
+
 * **Quantum Error Correction Julia Developer**, March 2024 - Present
   * Package: QuantumClifford.jl
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
