@@ -17,9 +17,7 @@ redirect_from:
 ## Work experience
 * **Quantum Error Correction Julia Developer**, March 2024 - Present
   * Package: QuantumClifford.jl
-  * Implementation of linear codes such as classical Reed-Muller codes, abstract polynomial codes such as Reed-Solomon codes and Bose–Chaudhuri–Hocquenghem
-codes, and abstract algebraic codes such as Goppa codes, important subroutines for Quantum codes in Julia.
-  * Implementation of Steane-Reed-Muller codes where classical RM(r,m) is used as a primitive for Steane-RM codes in Stabilizer construction in Julia.
+  * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
   * Reviewers: [Prof. Dr. Stefan Krastanov](https://blog.krastanov.org/staticprerenders/resume.html)
 
 * **Research Assistant**, NUCES, Feb 2023 - Feb 2024
@@ -130,6 +128,7 @@ codes, and abstract algebraic codes such as Goppa codes, important subroutines f
   * Explored contem porary philosophy in diverse areas like Epistemology, Philosophy of Science, Philosophy of Mind, Political Philosophy, Moral Philosophy, and Metaphysics.
  
 ## Awards and Honors
+* [3rd Place on the LeaderBoard](https://unitaryhack.dev/leaderboard/), unitaryHack, 2024 organized by the UnitaryFund. Contributed to Braket.jl, BraketSimulator and Piccolo.jl. 
 * Akhlaque Hussain Bronze Medal - (Fall 2019 to Spring 2023) - BS(EE), Third Position in Batch 2019, Nov 2023
 * FIRST Place @ WOMANIUM Global Quantum Media Award, Sep 2023
 * Full Scholarship QxQ Introduction to Quantum Computing, Sep 2023
