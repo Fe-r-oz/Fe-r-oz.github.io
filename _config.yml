@@ -28,7 +28,7 @@ author:
   location         : "Pakistan"
   employer         :
   uri              : # URL
-  email            : "feroz.ahmad.email@gmail.com" 
+  email            :
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "https://twitter.com/feroz_ahmad_"
+  twitter          :
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
