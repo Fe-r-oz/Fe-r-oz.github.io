@@ -33,7 +33,7 @@ redirect_from:
   * Research Output: [SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML](https://ieeexplore.ieee.org/document/10399904)
   * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198)
  
-* **Quantum Computing Scholar**, Sep 2023 - Present
+* **Quantum Computing Scholar**, Sep 2023 - April 2024
   * Organization: The Coding School
   * Accepted into The Coding School’s-Qubit by Qubit: Introduction to Quantum Computing course, a two-semester program which provides a comprehensive introduction to quantum computing, covering topics like quantum mechanics, quantum information and computation, and quantum hardware.
   * Semester 1 and 2: Grade: A
