@@ -16,15 +16,15 @@ redirect_from:
  
 ## Work experience
 
-* **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
-  * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
-  * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
-  * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
-
 * **Quantum Error Correction Julia Developer**, March 2024 - Present
   * Package: QuantumClifford.jl
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
   * Reviewers: [Prof. Dr. Stefan Krastanov](https://blog.krastanov.org/staticprerenders/resume.html)
+
+* **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
+  * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
+  * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
+  * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
 
 * **Research Assistant**, NUCES, Feb 2023 - Feb 2024
   * Organization: National University of Computer and Emerging Sciences, Lahore, Pakistan.
