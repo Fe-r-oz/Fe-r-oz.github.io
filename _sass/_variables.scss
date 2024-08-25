@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Variables
+   Dark Mode Variables
    ========================================================================== */
 
 /*
@@ -49,24 +49,22 @@ $masthead-height            : 50px;
 $sidebar-min-width          : 1024px;
 $sidebar-link-max-width     : 250px;
 
-
-
 /*
    Colors
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$dark-gray                  : #e0e0e0;  // Lighten for text
+$darker-gray                : #f0f0f0;  // Lighten for text
+$light-gray                 : #2c2c2c;  // Darken for backgrounds
+$lighter-gray               : #1a1a1a;  // Darken for backgrounds
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
+$body-color                 : #121212;  // Dark background
+$background-color           : #121212;  // Same as body for uniformity
+$code-background-color      : #1e1e1e;  // Darker background for code
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$text-color                 : #e0e0e0;  // Lighten for text
+$border-color               : #333;     // Dark border
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
@@ -100,14 +98,12 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
-
 /* links */
 $link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-hover           : mix(#fff, $link-color, 25%);
+$link-color-visited         : mix(#000, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
-
+$masthead-link-color-hover  : mix(#fff, $primary-color, 25%);
 
 /*
    Breakpoints
@@ -153,13 +149,12 @@ $susy: (
   // ),
 );
 
-
 /*
    Other
    ========================================================================== */
 
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.4);  // Darker shadow
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
