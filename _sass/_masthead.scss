@@ -4,8 +4,8 @@
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: $header-background-color; // Updated for dark mode
+  border-bottom: 1px solid $border-color; // Keep border color dark for contrast
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -21,6 +21,7 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    color: $header-text-color; // Ensure text color is light for readability
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -32,12 +33,15 @@
 
     a {
       text-decoration: none;
+      color: $header-text-color; // Ensure links are readable in dark mode
+      &:hover {
+        color: mix($header-text-color, $link-color-hover, 50%); // Adjust link hover color for visibility
+      }
     }
   }
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
@@ -50,6 +54,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  color: $header-text-color; // Ensure menu items are readable
 
   &--lg {
     padding-right: 2em;
