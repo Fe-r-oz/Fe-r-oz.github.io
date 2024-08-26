@@ -10,7 +10,7 @@ redirect_from:
 
 ## Education
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
-  * Research Interests: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
+  * Research Area: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
   * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
   * Thesis: [System-on-Chip based Deep Learning Accelerator for ECG Classification](https://drive.google.com/file/d/1Hf5TzoBrv4sndfoux04q8yrBUtrl11RA/view?usp=sharing)
  
