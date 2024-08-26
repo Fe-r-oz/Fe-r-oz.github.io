@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Feroz Ahmad"
+title                    : "limₙ→∞ Σₖ=₁ⁿ Δε/∂ξ × ∞"
 title_separator          : "-"
-name                     : &name "Feroz Ahmad"
+name                     : &name "FEROZ AHMAD"
 description              : &description "Prospective Postgraduate/Graduate Student in Quantum Information Science and Engineering"
 url                      : https://Fe-r-oz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "Fe-r-oz/Fe-r-oz.github.io"
 author:
   # Biographic information
   avatar           : "FerozAhmad.png"
-  name             : "Feroz Ahmad"
+  name             : "FEROZ AHMAD"
   pronouns         :   
   bio              : "Prospective PhD/Masters Student in Quantum Information Science and Engineering"
   location         : "Pakistan"
