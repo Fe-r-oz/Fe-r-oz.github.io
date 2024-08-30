@@ -1,3 +1,10 @@
+
+---
+title: "BS Projects"
+collection: projects
+type: "BS Projects"
+permalink: /projects/bachelors
+---
 ## University Projects
 * **System on Chip -based Deep Learning Accelerator for ECG Classification**
   * Using High level synthesis based hardware-software codesign workflow to designing and implementing convolutional neural accelerator for ECG Arrhythmia Classification using fully open source workflow
