@@ -4,8 +4,10 @@ title: "BS Projects"
 collection: projects
 type: "BS Projects"
 permalink: /projects/bachelors
----
+excerpt: "
+
 ## University Projects
+
 * **System on Chip -based Deep Learning Accelerator for ECG Classification**
   * Using High level synthesis based hardware-software codesign workflow to designing and implementing convolutional neural accelerator for ECG Arrhythmia Classification using fully open source workflow
   * Project Demonstrations: [Real-Time Demonstration](https://drive.google.com/file/d/11NER5rYtfMe7j5IyV6gFbEhFXv7qvngh/view?usp=sharing), [Investigation and Testing](https://drive.google.com/file/d/1DLl6uXcefTzakWTSMXCKL0XQ-6ty9vLh/view?usp=sharing), [High Level Synthesis](https://drive.google.com/file/d/1D1L7VW7wPGFh4X2ThIeDf2wji_eQjKVp/view?usp=sharing)
@@ -37,4 +39,4 @@ permalink: /projects/bachelors
 * **Assembly 8 Bit Calculator Base Convertor on AT89C51 Microcontroller**
   * Implemented 8 bit calculator on AT89C51 Microcontroller using Assembly Language in Keil uVision4, featuring math operations, base conversions, and tested in Proteus 8.9 Professional simulation.
 * **Synchronization In Cigarette Smokers Problem**
-  * Developed a C program utilizing processes and binary semaphores to solve a resource sharing synchronization problem, mitigating deadlock, starvation, and mutual exclusion, leading to a variant of the readers-writers problem.
+  * Developed a C program utilizing processes and binary semaphores to solve a resource sharing synchronization problem, mitigating deadlock, starvation, and mutual exclusion, leading to a variant of the readers-writers problem."
