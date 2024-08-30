@@ -16,7 +16,7 @@ redirect_from:
   * Publication: **Feroz Ahmad**, Saima Zafar, "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
  
 ## Work experience
-* **Quantum Error Correction Julia Developer**, March 2024 - Present
+* **Quantum Error Correction Developer**, March 2024 - Present
   * Package: QuantumClifford.jl
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
   * Reviewer: [Prof. Stefan Krastanov](https://blog.krastanov.org/staticprerenders/resume.html).
