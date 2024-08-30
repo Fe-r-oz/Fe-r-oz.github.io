@@ -3,5 +3,5 @@ main:
   - title: "About Me"
     url: /about/
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Projects"
+    url: /projects/    
