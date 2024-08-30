@@ -13,13 +13,14 @@ redirect_from:
   * Research Area: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
   * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
   * Thesis: [System-on-Chip based Deep Learning Accelerator for ECG Classification](https://drive.google.com/file/d/1Hf5TzoBrv4sndfoux04q8yrBUtrl11RA/view?usp=sharing)
+  * Publication: **Feroz Ahmad**, Saima Zafar, "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
  
 ## Work experience
 
 * **Quantum Error Correction Julia Developer**, March 2024 - Present
   * Package: QuantumClifford.jl
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
-  * Reviewers: [Prof. Dr. Stefan Krastanov](https://blog.krastanov.org/staticprerenders/resume.html)
+  * Reviewer: [Prof. Stefan Krastanov](https://blog.krastanov.org/staticprerenders/resume.html).
 
 * **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
