@@ -1,10 +1,3 @@
----
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
----
-
 ## University Projects
 * **System on Chip -based Deep Learning Accelerator for ECG Classification**
   * Using High level synthesis based hardware-software codesign workflow to designing and implementing convolutional neural accelerator for ECG Arrhythmia Classification using fully open source workflow
