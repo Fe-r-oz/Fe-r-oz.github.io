@@ -1,11 +1,6 @@
-
 ---
-title: "BS Projects"
-collection: projects
-type: "BS Projects"
 permalink: /projects/bachelors
-excerpt: "
-
+---
 ## University Projects
 
 * **System on Chip -based Deep Learning Accelerator for ECG Classification**
