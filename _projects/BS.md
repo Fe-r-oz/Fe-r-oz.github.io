@@ -1,5 +1,6 @@
 ---
-permalink: /projects/bachelors
+title: 'Testing'
+permalink: /projects/BS
 ---
 ## University Projects
 
