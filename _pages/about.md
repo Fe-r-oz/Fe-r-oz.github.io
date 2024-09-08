@@ -19,7 +19,6 @@ redirect_from:
 * **Quantum Error Correction Developer**, March 2024 - Present
   * Package: QuantumClifford.jl
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
-  * Reviewer: [Prof. Stefan Krastanov](https://blog.krastanov.org/staticprerenders/resume.html).
 
 * **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
