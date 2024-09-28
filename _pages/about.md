@@ -17,7 +17,7 @@ redirect_from:
  
 ## Work experience
 * **Quantum Error Correction Developer**, March 2024 - Present
-  * Projects I am part of: QuantumClifford.jl, CodingTheory.jl
+  * Project I am part of: QuantumClifford.jl
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
 
 * **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
