@@ -17,7 +17,10 @@ redirect_from:
  
 ## Work experience
 * **Quantum Error Correction Developer**, March 2024 - Present
-  * Projects I am part of: QuantumClifford.jl, CodingTheory.jl
+  * Projects I am part of: QuantumClifford.jl
+    - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**
+    - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the Capabilities of quantum two-block group algebra (2BGA) codes
+    - Quantum LDPC implementations: [Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/399), [Multivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/381), [Coprime Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378), [Haah's Cubic codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/388), [Honeycomb Color codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/436)
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
 
 * **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
