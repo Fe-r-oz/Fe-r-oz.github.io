@@ -20,6 +20,7 @@ redirect_from:
   * Projects I am part of: QuantumClifford.jl
     - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**
     - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the Capabilities of quantum two-block group algebra (2BGA) codes
+    - Ongoing Project: **[Compute the minimum distance of QLDPC using Linear Programming via JuMP](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)**
   * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
 
 * **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
