@@ -59,7 +59,7 @@ redirect_from:
   * Supervisor: Mr. Ahmad Kamal
  
 ## Research Interests 
-* **Research Area**: Quantum Information Science and Engineering 
+* **Research Area**: Quantum Error Correction, Non-Clifford Formalism, ML Accelerators
 * I am captivated by interdisciplinary research due to its capacity to blend insights from various fields, utilizing a broad repository of knowledge that is incredibly effective in tackling complex, real-life problems.
 * I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
   
@@ -157,9 +157,8 @@ redirect_from:
 * [Inducted In Dean's List Semester 01: Fall 2019](https://www.nu.edu.pk/Campus/Lahore/DeanLists)
 * [Bronze Medalist Bronze Medal for Semester I, Batch 2019](https://www.nu.edu.pk/Campus/Lahore/DeanLists)
 
-Note: ""Working on this site. It's not fully setup!""
+
 
 ## Publications
 * **Feroz Ahmad**, Saima Zafar, "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0EqqSVzZT5Wst5UrWI0-UZikD42NnE95m4E3f3XHYtU"></script>
