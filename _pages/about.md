@@ -11,17 +11,16 @@ redirect_from:
 ## Education
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
   * Research Area: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
-  * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
-  * Thesis: [System-on-Chip based Deep Learning Accelerator for ECG Classification](https://drive.google.com/file/d/1Hf5TzoBrv4sndfoux04q8yrBUtrl11RA/view?usp=sharing)
-  * Publication: **Feroz Ahmad**, Saima Zafar, "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
- 
+  * **Publication**: **Feroz Ahmad**, Saima Zafar, "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
+  * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
+
 ## Work experience
 * **Quantum Error Correction Developer**, March 2024 - Present
-  * Projects I am part of: QuantumClifford.jl
+ * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
     - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**
     - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the Capabilities of quantum two-block group algebra (2BGA) codes
     - Ongoing Project: **[Compute the minimum distance of QLDPC using Linear Programming via JuMP](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)**
-  * Passionate about Quantum Error Correction, Pure Mathematics and Coding Theory
+  * I am passionate about quantum error correction, applied mathematics and coding theory. I am very grateful to be working under the wonderful supervision of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
 
 * **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
