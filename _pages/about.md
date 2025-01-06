@@ -11,7 +11,7 @@ redirect_from:
 ## Education
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
   * Research Area: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
-  * **Publication**: **Feroz Ahmad**, Saima Zafar, "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
+  * **Publication**: **Feroz Ahmad**, Saima Zafar, "***SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML***". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
 ## Work experience
