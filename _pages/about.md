@@ -13,9 +13,9 @@ redirect_from:
 Feroz Ahmad is currently working as a software developer on a Quantum Error Correction stabilizer simulator library, QuantumSavory/QuantumClifford.jl under the wonderful supervision of Prof. Stefan Krastanov at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst. His work involves leveraging stabilizer formalism and group theory to implement QEC protocols/codes.
 
 His current comprehensive projects for Quantum Savory organization open source bug bounty program includes the following: 
-1) **Completing the Non-Clifford capabilities**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
-2) **Extending the capabilities of Two Block Group Algebra codes**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
-3) **Computing the minimum distance of quantum Low Dense Parity Check codes using Linear Programming**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
+* **Completing the Non-Clifford capabilities**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
+* **Extending the capabilities of Two Block Group Algebra codes**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
+* **Computing the minimum distance of quantum Low Dense Parity Check codes using Linear Programming**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
 
 In addition, he achieved 3rd position globally at quantum computing UnitaryHack 2024. His supervisors included Katharine Hyatt from Amazon AWS Quantum team where he developed solutions for Braket.jl and BraketSimulator.jl libraries. He has also contributed to the Julia language ErrorCorrection.jl/CodingTheory.jl package by principal developer, Eric Sabo from Xanadu.
 
