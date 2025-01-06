@@ -17,11 +17,12 @@ redirect_from:
 ## Work experience
 * **Quantum Error Correction Developer**, March 2024 - Present
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
-    - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**
-    - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the Capabilities of quantum two-block group algebra (2BGA) codes
-    - Ongoing Project: **[Compute the minimum distance of QLDPC using Linear Programming via JuMP](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)**
-    - Quantum LPDC code implementations: [Multivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378), [Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/399), [Coprime Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378), [Haah's cubic codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/388), 
-  * I am passionate about quantum error correction, applied mathematics and coding theory. I am very grateful to be working under the wonderful supervision of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
+    - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
+    - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the Capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
+    - Ongoing Project: **[Compute the minimum distance of QLDPC using Linear Programming via JuMP](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
+    - Quantum LPDC code implementations: **[Multivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378)**, **[Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/399)**, **[Coprime Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378)**, **[Haah's cubic codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/388)**, 
+  * I am passionate about quantum error correction, applied mathematics and coding theory.
+  * I am deeply grateful to be working under the wonderful supervision of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
 
 * **Quantum Software Developer**, UnitaryFund Hackathon, June 2024 - June 2024
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
