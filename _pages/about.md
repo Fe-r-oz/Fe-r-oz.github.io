@@ -49,7 +49,7 @@ This innovative approach utilized 1D convolutional neural networks on System-on-
   * Developed a pioneering approach of HLS4ML's first real-use case outside of Physics in the Embedded Systems, generalized for all applications from the incoming signal in 1 dimensional.
   * Worked on high level synthesis (HLS) based hardware-software co-design flow deep learning accelerators for human bio-potential classification with implementation on System on chip (SoCs)
   * Research Output: [SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML](https://ieeexplore.ieee.org/document/10399904)
-  * Supervisor: [Professor. Dr. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198)
+  * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198)
  
 * **Quantum Computing Scholar**, Sep 2023 - April 2024
   * Organization: The Coding School
