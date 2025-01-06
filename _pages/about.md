@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 ## About Me
-
 Feroz Ahmad is currently working as a software developer on a Quantum Error Correction stabilizer simulator library, QuantumSavory/QuantumClifford.jl under the wonderful supervision of Prof. Stefan Krastanov at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst. His work involves leveraging stabilizer formalism and group theory to implement QEC protocols/codes.
 
 His current comprehensive projects for Quantum Savory organization open source bug bounty program includes the following: 
@@ -18,7 +17,6 @@ His current comprehensive projects for Quantum Savory organization open source b
 * **Computing the minimum distance of quantum Low Dense Parity Check codes using Linear Programming**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
 
 In addition, he achieved 3rd position globally at quantum computing UnitaryHack 2024. His supervisors included Katharine Hyatt from Amazon AWS Quantum team where he developed solutions for Braket.jl and BraketSimulator.jl libraries. He has also contributed to the Julia language ErrorCorrection.jl/CodingTheory.jl package by principal developer, Eric Sabo from Xanadu.
-
 ## Short Background
 He graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023. Following his graduation, he served as a Research Assistant at the Smart Networking Research Group at FAST-NUCES from February 2023 to February 2024, under the supervision of Prof. Saima Zafar. He achieved a novel milestone by pioneering the first application of High-Level Synthesis for Machine Learning in medical applications. His work was published in IEEE Embedded Systems Letters (Impact Factor: 1.7).
 
