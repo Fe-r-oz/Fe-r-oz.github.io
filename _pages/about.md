@@ -8,6 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+## About Me
+
+Feroz Ahmad is currently working as a software developer on a Quantum Error Correction stabilizer simulator library, QuantumSavory/QuantumClifford.jl under the wonderful supervision of Prof. Stefan Krastanov at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst. His work involves leveraging stabilizer formalism and group theory to implement QEC protocols/codes. His current comprehensive projects for Quantum Savory organization open source bug bounty program includes the following: 1) Completing the Non-Clifford capabilities, 2) Extending the capabilities of Two Block Group Algebra codes, and 3) Computing the minimum distance of quantum Low Dense Parity Check codes using Linear Programming. In addition, he achieved 3rd position globally at quantum computing UnitaryHack 2024. His supervisors included Katharine Hyatt from Amazon AWS Quantum team where he developed solutions for Braket.jl and BraketSimulator.jl libraries. He has also contributed to the Julia language ErrorCorrection.jl/CodingTheory.jl package by principal developer, Eric Sabo from Xanadu.
+
+He graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023. Following his graduation, he served as a Research Assistant at the Smart Networking Research Group at FAST-NUCES from February 2023 to February 2024, under the supervision of Prof. Saima Zafar. They achieved a novel milestone by pioneering the first application of High-Level Synthesis for Machine Learning in medical applications. Their work was published in IEEE Embedded Systems Letters (Impact Factor: 1.7). Their innovative approach utilized 1D convolutional neural networks on System-on-Chips through the open-source HLS4ML codesign workflow. They demonstrated that 1D-CNNs outperformed traditional 2D-CNNs in resource utilization and efficiency, making them ideal for real-time classification of 1D biopotential signals. This practical deployment showcased the scalability and effectiveness of the proposed methodology, significantly contributing to the advancement of cardiac healthcare solutions. Furthermore, this project marked the first real-world use case of HLS4ML beyond its origins in particle physics, adapting it for embedded systems across various 1D signal-processing applications.
 ## Education
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
   * Research Area: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
@@ -15,7 +20,7 @@ redirect_from:
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
 ## Work experience
-* **Quantum Error Correction Developer**, March 2024 - Present
+* **Quantum Software Developer**, March 2024 - Present
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
     - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
     - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
