@@ -13,7 +13,7 @@ Feroz Ahmad is currently working as a software developer on a Quantum Error Corr
 
 His current comprehensive projects for Quantum Savory organization open source bug bounty program includes the following: 
 * **Completing the Non-Clifford capabilities**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
-* **Extending the capabilities of Two Block Group Algebra codes**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
+* **Extending the capabilities of Two Block Group Algebra codes**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations $\langle X \mid S \rangle$ 
 * **Computing the minimum distance of quantum Low Dense Parity Check codes using Linear Programming**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
 
 In addition, he achieved 3rd position globally at quantum computing UnitaryHack 2024. His supervisors included Katharine Hyatt from Amazon AWS Quantum team where he developed solutions for Braket.jl and BraketSimulator.jl libraries. He has also contributed to the Julia language ErrorCorrection.jl/CodingTheory.jl package by principal developer, Eric Sabo from Xanadu.
