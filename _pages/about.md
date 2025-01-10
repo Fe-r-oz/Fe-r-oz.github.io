@@ -30,7 +30,7 @@ This innovative approach utilized 1D convolutional neural networks on System-on-
 ## Work experience
 * **Quantum Software Developer**, March 2024 - Present
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
-    - Ongoing Project: **Completing the non-Clifford capabilities]*: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
+    - Ongoing Project: **Completing the non-Clifford capabilities**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
     - Ongoing Project: **Extending the capabilities of 2BGA codes via Oscar's Group Algebra**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
     - Ongoing Project: **Compute the minimum distance of QLDPC using Linear Programming via JuMP**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
     - Quantum LPDC code implementations: **[Multivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378)**, **[Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/399)**, **[Coprime Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378)**, **[Haah's cubic codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/388)**, 
