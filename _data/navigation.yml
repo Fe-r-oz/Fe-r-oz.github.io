@@ -9,5 +9,8 @@ main:
   - title: "Awards"
     url: /awards/
 
-  - title: "Professional Certification"
+  - title: "Certification"
     url: /courses/
+
+  - title: "Past Projects"
+    url: /projects/

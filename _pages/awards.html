@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% for award in site.awards %}
+{% for award in site.awards reversed %}
   <div class="award-item">
     <h2><a href="{{ award.award_link }}" target="_blank">{{ award.title }}</a></h2>
     <p>{{ award.description }}</p>
