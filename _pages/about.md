@@ -110,7 +110,6 @@ This innovative approach utilized 1D convolutional neural networks on System-on-
   * Implemented 8 bit calculator on AT89C51 Microcontroller using Assembly Language in Keil uVision4, featuring math operations, base conversions, and tested in Proteus 8.9 Professional simulation.
 * **Synchronization In Cigarette Smokers Problem**
   * Developed a C program utilizing processes and binary semaphores to solve a resource sharing synchronization problem, mitigating deadlock, starvation, and mutual exclusion, leading to a variant of the readers-writers problem.
-
 ## Courses and Certifications
 * **Machine Learning Specialization** (3x Courses) by **Stanford** Online
   * Explored supervised ML (linear regression, logistic regression, neural networks, decision trees), unsupervised ML(clustering, anomaly detection), recommender systems, and RL.
