@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% for course in site.courses %}
+{% for course in site.courses reversed%}
   <div class="course-item">
     <h2><a href="{{ course.course_link }}" target="_blank">{{ course.title }}</a></h2>
     <p>{{ course.description }}</p>
