@@ -5,3 +5,4 @@ date: 2024-01-05
 award_link: 'https://unitaryhack.dev/leaderboard/'
 description: 'Contributed to Braket.jl, BraketSimulator, and Piccolo.jl.'
 ---
+UnitaryHack 2024 organized by the UnitaryFund. Contributed to Braket.jl, BraketSimulator, and Piccolo.jl.
