@@ -77,4 +77,4 @@ This innovative approach utilized 1D convolutional neural networks on System-on-
 * I am captivated by interdisciplinary research due to its capacity to blend insights from various fields, utilizing a broad repository of knowledge that is incredibly effective in tackling complex, real-life problems.
 * I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=0e1633&w=a&t=n&d=0EqqSVzZT5Wst5UrWI0-UZikD42NnE95m4E3f3XHYtU&co=0b4975&ct=cdd4d9&cmo=3acc3a&cmn=ff5353'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=0e1633&w=300&t=tt&d=0EqqSVzZT5Wst5UrWI0-UZikD42NnE95m4E3f3XHYtU&co=0b4975&ct=cdd4d9&cmo=3acc3a&cmn=ff5353'></script>
