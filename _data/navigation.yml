@@ -2,3 +2,6 @@
 main:
   - title: "About Me"
     url: /about/
+
+  - title: "Publications"
+    url: /publications/
