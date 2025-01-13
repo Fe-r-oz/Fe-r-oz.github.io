@@ -220,7 +220,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  blog:
+  blogs:
     output: true
     permalink: /:collection/:path/
 
