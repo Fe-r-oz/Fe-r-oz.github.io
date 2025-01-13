@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Curriculum Vitae"
-excerpt: "Curriculum Vitae"
+title:
+excerpt: 
 author_profile: true
 redirect_from: 
   - /about/
