@@ -1,0 +1,27 @@
+---
+layout: archive
+title: "Blog"
+permalink: /blogs/
+author_profile: true
+---
+
+{% for blog in site.blogs reversed %}
+  <div class="blog-post">
+    <!-- Blog Title -->
+    <h2><a href="{{ blog.link }}" target="_blank">{{ blog.title }}</a></h2>
+
+    <!-- Blog Date -->
+    <p><strong>Posted on:</strong> {{ blog.date | date: "%B %d, %Y" }}</p>
+
+    <!-- Blog Tags -->
+    {% if blog.tags %}
+      <p><strong>Tags:</strong> 
+        {% for tag in blog.tags %}
+          {{ tag }}{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    <hr>
+  </div>
+{% endfor %}

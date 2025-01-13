@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "FEROZ AHMAD"
+title                    : "FEROZ AHMED MIAN"
 title_separator          : "-"
-name                     : &name "FEROZ AHMAD"
-description              : &description "Prospective PhD Student in Quantum Information Science and Engineering"
+name                     : &name "FEROZ AHMED MIAN فیروز احمد میاں"
+description              : &description "Incoming PhD Student at UMass Amherst"
 url                      : https://Fe-r-oz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Fe-r-oz/Fe-r-oz.github.io"
@@ -21,11 +21,11 @@ repository               : "Fe-r-oz/Fe-r-oz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "FerozAhmad.png"
-  name             : "FEROZ AHMAD"
+  avatar           : "FEROZAHMEDMIAN.png"
+  name             : "FEROZ AHMED MIAN فیروز احمد میاں"
   pronouns         :   
-  bio              : "Prospective PhD in Quantum Information Science and Engineering/Computer Science"
-  location         : "Pakistan"
+  bio              : "Incoming PhD Student at UMass Amherst"
+  location         : "Lahore, Pakistan"
   employer         :
   uri              : # URL
   email            :
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=06L6IaIAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            :
+  orcid            : "https://orcid.org/0000-0001-6667-1403"
   pubmed           :
   researchgate     : # URL
 
@@ -56,9 +56,9 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/feroz-ahmad-a4b00a22a/"
+  linkedin         : 
   mastodon         : # URL
-  medium           : "https://medium.com/@pragmaticlyabstract"
+  medium           :
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
@@ -199,16 +199,22 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  awards:
     output: true
     permalink: /:collection/:path/
-  talks:
+  courses:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
+  blogs:
     output: true
     permalink: /:collection/:path/
 

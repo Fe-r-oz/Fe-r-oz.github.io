@@ -1,0 +1,51 @@
+.news-hover-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-item {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.news-item:hover {
+  transform: scale(1.05);
+}
+
+.news-content {
+  padding: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+}
+
+.news-item:hover .news-content {
+  animation: blink 1s infinite alternate;
+}
+
+.news-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.news-item p {
+  font-size: 1rem;
+  color: white;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

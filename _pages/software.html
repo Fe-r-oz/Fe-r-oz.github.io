@@ -1,0 +1,59 @@
+---
+layout: archive
+title: "Software"
+permalink: /software/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="page-content">
+  <div class="software-list">
+    {% for software in site.software reversed %}
+      <div class="software-post">
+        <!-- Software Title -->
+        <h2><a href="{{ software.link }}" target="_blank">{{ software.title }}</a></h2>
+
+        <!-- Software Duration -->
+        <p><strong>Duration:</strong> {{ software.duration }}</p>
+
+        <!-- Software Description -->
+        <p><strong>Description:</strong> {{ software.description }}</p>
+
+        <!-- Software Collaborators -->
+        {% if software.collaborators %}
+          <p><strong>Collaborators:</strong> 
+            {% for collaborator in software.collaborators %}
+              {{ collaborator }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <!-- Software Reviewer -->
+        {% if software.reviewer %}
+          <p><strong>Reviewer:</strong> {{ software.reviewer }}</p>
+        {% endif %}
+
+        <!-- Software Technologies -->
+        {% if software.technologies %}
+          <p><strong>Technologies:</strong> 
+            {% for tech in software.technologies %}
+              {{ tech }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <!-- Software Tags -->
+        {% if software.tags %}
+          <p><strong>Tags:</strong> 
+            {% for tag in software.tags %}
+              {{ tag }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <hr>
+      </div>
+    {% endfor %}
+  </div>
+</div>

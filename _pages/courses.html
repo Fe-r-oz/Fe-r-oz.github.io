@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Certifications"
+permalink: /courses/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for course in site.courses reversed%}
+  <div class="course-item">
+    <h2><a href="{{ course.course_link }}" target="_blank">{{ course.title }}</a></h2>
+    <p>{{ course.description }}</p>
+    <p><strong>Date Completed:</strong> {{ course.date | date: "%B %d, %Y" }}</p>
+  </div>
+{% endfor %}

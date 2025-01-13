@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Awards"
+permalink: /awards/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for award in site.awards reversed %}
+  <div class="award-item">
+    <h2><a href="{{ award.award_link }}" target="_blank">{{ award.title }}</a></h2>
+    <p>{{ award.description }}</p>
+    <p><strong>Date:</strong> {{ award.date | date: "%B %d, %Y" }}</p>
+  </div>
+{% endfor %}

@@ -5,3 +5,15 @@ main:
 
   - title: "Publications"
     url: /publications/
+
+  - title: "Awards"
+    url: /awards/
+
+  - title: "Certifications"
+    url: /courses/
+
+  - title: "Past Projects"
+    url: /projects/
+
+  - title: "SciComm"
+    url: /blogs/
