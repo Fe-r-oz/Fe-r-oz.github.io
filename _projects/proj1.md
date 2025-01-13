@@ -2,7 +2,7 @@
 layout: default
 title: "System on Chip-based Deep Learning Accelerator for ECG Classification"
 date: "2022-07-25"
-project_link: "https://link_to_project.com"
+project_link: 
 description: "Using High-level synthesis-based hardware-software codesign workflow to design and implement a convolutional neural accelerator for ECG Arrhythmia Classification using a fully open-source workflow."
 demonstrations:
   - title: "Real-Time Demonstration"
