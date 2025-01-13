@@ -2,7 +2,6 @@
 layout: archive
 title: "Constructor Theory of Information and Its Application in Hybrid Quantum Systems"
 date: "2023-12-29"
-permalink: /posts/2023/12/constructor-theory-of-information-and-its-application-in-hybrid-quantum-systems/
 tags:
   - Constructor Theory
   - Quantum Systems
