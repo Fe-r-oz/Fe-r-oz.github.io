@@ -2,7 +2,7 @@
 layout: default
 title: "Hardware Implementation of Pulse Width Modulation"
 date: "2021-09-15"
-project_link: "https://link_to_project.com"
+project_link: "#"
 description: "Simulation of Pulse Width Modulation using Simulink, Proteus 8.9 Professional, MATLAB along with hardware implementation."
 demonstrations:
   - title: "Pulse Width Modulated Waveform"
