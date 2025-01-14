@@ -17,7 +17,7 @@ author_profile: true
     {% if blog.tags %}
       <p><strong>Tags:</strong> 
         {% for tag in blog.tags %}
-          <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+          {{ tag }}{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
     {% endif %}
