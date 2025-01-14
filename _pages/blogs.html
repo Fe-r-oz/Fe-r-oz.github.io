@@ -5,7 +5,7 @@ permalink: /blogs/
 author_profile: true
 ---
 
-{% for blog in site.blogs %}
+{% for blog in site.blogs reversed %}
   <div class="blog-post">
     <!-- Blog Title -->
     <h2><a href="{{ blog.link }}" target="_blank">{{ blog.title }}</a></h2>
