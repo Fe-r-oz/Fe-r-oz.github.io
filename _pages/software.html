@@ -43,6 +43,15 @@ author_profile: true
           </p>
         {% endif %}
 
+        <!-- Software Collaborators -->
+        {% if software.collaborators %}
+          <p><strong>Collaborators:</strong> 
+            {% for collaborator in software.collaborators %}
+              {{ collaborator }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
         <hr>
       </div>
     {% endfor %}
