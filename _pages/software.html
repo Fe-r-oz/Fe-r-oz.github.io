@@ -7,22 +7,22 @@ author_profile: true
 
 <div class="page-content">
   <h1>{{ page.title }}</h1>
-  <div class="project-list">
-    {% for project in site.projects %}
-      <div class="project-post">
-        <!-- Project Title -->
-        <h2><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h2>
+  <div class="software-list">
+    {% for software in site.software %}
+      <div class="software-post">
+        <!-- Software Title -->
+        <h2><a href="{{ software.link }}" target="_blank">{{ software.title }}</a></h2>
 
-        <!-- Project Date -->
-        <p><strong>Started on:</strong> {{ project.date | date: "%B %d, %Y" }}</p>
+        <!-- Software Duration -->
+        <p><strong>Duration:</strong> {{ software.duration }}</p>
 
-        <!-- Project Description -->
-        <p><strong>Description:</strong> {{ project.description }}</p>
+        <!-- Software Description -->
+        <p><strong>Description:</strong> {{ software.description }}</p>
 
-        <!-- Project Technologies -->
-        {% if project.technologies %}
+        <!-- Software Technologies -->
+        {% if software.technologies %}
           <p><strong>Technologies:</strong> 
-            {% for tech in project.technologies %}
+            {% for tech in software.technologies %}
               {{ tech }}{% if forloop.last == false %}, {% endif %}
             {% endfor %}
           </p>
