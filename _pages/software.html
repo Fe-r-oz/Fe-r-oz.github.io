@@ -19,6 +19,11 @@ author_profile: true
         <!-- Software Description -->
         <p><strong>Description:</strong> {{ software.description }}</p>
 
+        <!-- Software Reviewer -->
+        {% if software.reviewer %}
+          <p><strong>Reviewer:</strong> {{ software.reviewer }}</p>
+        {% endif %}
+
         <!-- Software Technologies -->
         {% if software.technologies %}
           <p><strong>Technologies:</strong> 
