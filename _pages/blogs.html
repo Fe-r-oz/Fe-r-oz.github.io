@@ -5,8 +5,9 @@ permalink: /blogs/
 author_profile: true
 ---
 
-{% for post in site.posts %}
-  {{ post.title }}
-  Posted on {{ post.date | date: "%B %d, %Y" }}
-  {{ post.excerpt }}
+{% for blog in site.blogs %}
+  {{ blog.title }}
+  Posted on {{ blog.date | date: "%B %d, %Y" }}
+  {{ blog.intro }}
+  [Read more]({{ blog.link }})
 {% endfor %}
