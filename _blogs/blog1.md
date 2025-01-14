@@ -6,5 +6,5 @@ tags:
   - Constructor Theory
   - Quantum Systems
   - Information Theory
-link: "https://pragmaticlyabstract.medium.com/list/quantum-computingengineering-a2f46166b8b7"
+link: "https://medium.com/quantum-engineering/constructor-theory-60093a2885ef"
 ---
