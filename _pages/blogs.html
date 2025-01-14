@@ -5,8 +5,6 @@ permalink: /blogs/
 author_profile: true
 ---
 
-<h1>Blog</h1>
-
 {% for blog in site.blogs %}
   <div class="blog-post">
     <!-- Blog Title -->
@@ -23,9 +21,6 @@ author_profile: true
         {% endfor %}
       </p>
     {% endif %}
-
-    <!-- Read More Link -->
-    <p><a href="{{ blog.link }}" target="_blank">Read more</a></p>
 
     <hr>
   </div>
