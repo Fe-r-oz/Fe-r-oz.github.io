@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "Software"
+permalink: /software/
+author_profile: true
+---
+
+<div class="page-content">
+  <h1>{{ page.title }}</h1>
+  <div class="project-list">
+    {% for project in site.projects %}
+      <div class="project-post">
+        <!-- Project Title -->
+        <h2><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h2>
+
+        <!-- Project Date -->
+        <p><strong>Started on:</strong> {{ project.date | date: "%B %d, %Y" }}</p>
+
+        <!-- Project Description -->
+        <p><strong>Description:</strong> {{ project.description }}</p>
+
+        <!-- Project Technologies -->
+        {% if project.technologies %}
+          <p><strong>Technologies:</strong> 
+            {% for tech in project.technologies %}
+              {{ tech }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <hr>
+      </div>
+    {% endfor %}
+  </div>
+</div>

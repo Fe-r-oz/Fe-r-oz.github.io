@@ -211,6 +211,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
   blogs:
     output: true
     permalink: /:collection/:path/
