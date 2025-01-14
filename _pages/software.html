@@ -34,6 +34,15 @@ author_profile: true
           </p>
         {% endif %}
 
+        <!-- Software Tags -->
+        {% if software.tags %}
+          <p><strong>Tags:</strong> 
+            {% for tag in software.tags %}
+              {{ tag }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
         <hr>
       </div>
     {% endfor %}
