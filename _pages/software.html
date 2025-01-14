@@ -20,6 +20,15 @@ author_profile: true
         <!-- Software Description -->
         <p><strong>Description:</strong> {{ software.description }}</p>
 
+        <!-- Software Collaborators -->
+        {% if software.collaborators %}
+          <p><strong>Collaborators:</strong> 
+            {% for collaborator in software.collaborators %}
+              {{ collaborator }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
         <!-- Software Reviewer -->
         {% if software.reviewer %}
           <p><strong>Reviewer:</strong> {{ software.reviewer }}</p>
@@ -39,15 +48,6 @@ author_profile: true
           <p><strong>Tags:</strong> 
             {% for tag in software.tags %}
               {{ tag }}{% if forloop.last == false %}, {% endif %}
-            {% endfor %}
-          </p>
-        {% endif %}
-
-        <!-- Software Collaborators -->
-        {% if software.collaborators %}
-          <p><strong>Collaborators:</strong> 
-            {% for collaborator in software.collaborators %}
-              {{ collaborator }}{% if forloop.last == false %}, {% endif %}
             {% endfor %}
           </p>
         {% endif %}
