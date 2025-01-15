@@ -9,7 +9,7 @@ author_profile: true
 
 <div class="page-content">
   <div class="software-list">
-    {% for software in site.software %}
+    {% for software in site.software reversed %}
       <div class="software-post">
         <!-- Software Title -->
         <h2><a href="{{ software.link }}" target="_blank">{{ software.title }}</a></h2>
