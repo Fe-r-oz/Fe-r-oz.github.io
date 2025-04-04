@@ -31,7 +31,7 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * **Publication**: **Feroz Ahmad**, Saima Zafar, "***SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML***". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
-## Career Break
+## Career Break/Gap Year
 * **Open Source Contributor**, March 2024 - Present
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
     - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
@@ -60,7 +60,8 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * Provided recommendations and suggestions for how Machine Learning can be used to improve the efficiency, reliability, and profitability of hydro power powerhouses.
   * Supervisor: Mr. Ahmad Kamal
 
- ## Courses and Professinal Work
+ ## Courses and Professional Work
+ 
  * **Quantum Computing Scholar**, Sep 2023 - April 2024
   * Organization: The Coding School
   * Accepted into The Coding School’s-Qubit by Qubit: Introduction to Quantum Computing course, a two-semester program which provides a comprehensive introduction to quantum computing, covering topics like quantum mechanics, quantum information and computation, and quantum hardware.
