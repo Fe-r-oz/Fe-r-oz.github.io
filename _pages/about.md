@@ -43,6 +43,8 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
   * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
   * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
+  
+## Work Experience
 
 * **Research Assistant**, NUCES, Feb 2023 - Sep 2023
   * Organization: National University of Computer and Emerging Sciences, Lahore, Pakistan.
