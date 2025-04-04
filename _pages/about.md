@@ -21,15 +21,6 @@ redirect_from:
   </div>
 </div>
 
-## About Me
-I am currently working as a open source software developer on a Quantum Error Correction software, under the mentorship of Prof. Stefan Krastanov at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst. My work involves leveraging stabilizer formalism and group theory to implement QEC protocols/codes.
-
-My current comprehensive projects for Quantum Savory organization open source bug bounty program includes the following:
-* **Completing the Non-Clifford capabilities**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
-* **Extending the capabilities of Two Block Group Algebra codes**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations $\langle X \mid S \rangle$ 
-* **Computing the minimum distance of quantum Low Dense Parity Check codes using Linear Programming**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
-
-In addition, I achieved 3rd position globally at quantum computing UnitaryHack 2024. My supervisors included Dr. Katharine Hyatt from Amazon AWS Quantum team where I developed solutions for Braket.jl and BraketSimulator.jl libraries. I also contributed to the Julia language ErrorCorrection.jl/CodingTheory.jl package by principal developer, Dr. Eric Sabo from Xanadu.
 
 ## Short Background
 I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023. Following my graduation, I served as a Research Assistant at the Smart Networking Research Group at FAST-NUCES from February 2023 to February 2024, under the supervision of Prof. Saima Zafar. We achieved a novel milestone by pioneering the first application of High-Level Synthesis for Machine Learning in medical applications. My work was published in IEEE Embedded Systems Letters (Impact Factor: 1.7).
@@ -40,14 +31,12 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * **Publication**: **Feroz Ahmad**, Saima Zafar, "***SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML***". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
-## Work experience
+## Career Break
 * **Open Source Contributor**, March 2024 - Present
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
     - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
     - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
     - Ongoing Project: **[Compute the minimum distance of QLDPC using Linear Programming](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
-    - Quantum LPDC code implementations: **[Multivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378)**, **[Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/399)**, **[Coprime Bivariate Bicycle codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/378)**, **[Haah's cubic codes](https://github.com/QuantumSavory/QuantumClifford.jl/pull/388)**, 
-  * I am passionate about quantum error correction, applied mathematics and coding theory.
   * I am deeply grateful to be working under the wonderful mentorship and supervision of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
 
 * **Open Source Contributor**, UnitaryFund Hackathon, June 2024 - June 2024
@@ -55,7 +44,7 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
   * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
 
-* **Research Assistant**, NUCES, Feb 2023 - Feb 2024
+* **Research Assistant**, NUCES, Feb 2023 - Sep 2023
   * Organization: National University of Computer and Emerging Sciences, Lahore, Pakistan.
   * Developed a pioneering approach of HLS4ML's first real-use case outside of Physics in the Embedded Systems, generalized for all applications from the incoming signal in 1 dimensional.
   * Worked on high level synthesis (HLS) based hardware-software co-design flow deep learning accelerators for human bio-potential classification with implementation on System on chip (SoCs)
@@ -67,7 +56,7 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * Accepted into The Coding School’s-Qubit by Qubit: Introduction to Quantum Computing course, a two-semester program which provides a comprehensive introduction to quantum computing, covering topics like quantum mechanics, quantum information and computation, and quantum hardware.
   * Semester 1 and 2: Grade: A
 
-* **Quantum Computing Fellow**, Sep 2023 - May 2024
+* **Quantum Computing Fellow**, Sep 2023 - Dec 2024
    * Organization: Womanium
    * Co-authored a case study titled ’Quantum Solutions Launchpad-Xanadu-Linear Combination of Unitaries decompositions’ with [Dr. Mojde Fadaie](https://scholar.google.com/citations?user=Sg4qHUAAAAAJ&hl=en). Work Arrangement: Remote
    * Authored the following sections in case study namely 1) Quantum Chemistry, 2) Unitarity from Marginal Probability Preservation in Quantum Mechanics, 3) Hamiltonian and Unitary Evolution in Quantum Systems, 4) LCU Method in Quantum Chemistry
