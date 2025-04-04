@@ -53,12 +53,20 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * Research Output: [SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML](https://ieeexplore.ieee.org/document/10399904)
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198)
  
-* **Quantum Computing Scholar**, Sep 2023 - April 2024
+* **Officier Under Training**, June 2022 - Sep 2022
+  * Water and Power Development Authority, Pakistan
+  * Worked at Ghazi-Barotha and Tarbela powerhouses as OUT, gaining understanding of energy sector operations. Field experience from SIGMA, SWAT, PTESU, and DTESU industries.
+  * Completed a literature review of the current emerging technologies in the monitoring of processes in the powerhouse facility.
+  * Provided recommendations and suggestions for how Machine Learning can be used to improve the efficiency, reliability, and profitability of hydro power powerhouses.
+  * Supervisor: Mr. Ahmad Kamal
+
+ ## Courses and Professinal Work
+ * **Quantum Computing Scholar**, Sep 2023 - April 2024
   * Organization: The Coding School
   * Accepted into The Coding School’s-Qubit by Qubit: Introduction to Quantum Computing course, a two-semester program which provides a comprehensive introduction to quantum computing, covering topics like quantum mechanics, quantum information and computation, and quantum hardware.
   * Semester 1 and 2: Grade: A
 
-* **Quantum Computing Fellow**, Sep 2023 - Dec 2024
+* **Quantum Computing Fellow**, Sep 2023 - Dec 2023
    * Organization: Womanium
    * Co-authored a case study titled ’Quantum Solutions Launchpad-Xanadu-Linear Combination of Unitaries decompositions’ with [Dr. Mojde Fadaie](https://scholar.google.com/citations?user=Sg4qHUAAAAAJ&hl=en). Work Arrangement: Remote
    * Authored the following sections in case study namely 1) Quantum Chemistry, 2) Unitarity from Marginal Probability Preservation in Quantum Mechanics, 3) Hamiltonian and Unitary Evolution in Quantum Systems, 4) LCU Method in Quantum Chemistry
@@ -68,16 +76,9 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * 16x Publications on Medium with comprehensive analysis of the fundamentals as well as latest advancements on Superconducting, Neutral Atom, Photonic, Silicon, and Trapped Ion Quantum Computing.
   * Founded [Quantum Engineering Publication](https://pragmaticlyabstract.medium.com/list/quantum-computingengineering-a2f46166b8b7), to promote Quantum Education In Pakistan.
   * Led Womanium Global Media Project Initiative on LinkedIn, Twitter and Medium.
-
-* **Officier Under Training**, June 2022 - Sep 2022
-  * Water and Power Development Authority, Pakistan
-  * Worked at Ghazi-Barotha and Tarbela powerhouses as OUT, gaining understanding of energy sector operations. Field experience from SIGMA, SWAT, PTESU, and DTESU industries.
-  * Completed a literature review of the current emerging technologies in the monitoring of processes in the powerhouse facility.
-  * Provided recommendations and suggestions for how Machine Learning can be used to improve the efficiency, reliability, and profitability of hydro power powerhouses.
-  * Supervisor: Mr. Ahmad Kamal
- 
+  * 
 ## Research Interests 
-* **Research Area**: Quantum Error Correction, Non-Clifford Formalism, ML Accelerators
+* **Research Area**: Quantum Error Correction, ML Accelerators
 * I am captivated by interdisciplinary research due to its capacity to blend insights from various fields, utilizing a broad repository of knowledge that is incredibly effective in tackling complex, real-life problems.
 * I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
 
