@@ -66,7 +66,7 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
 * I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
 
 
- ## Courses and Volunteer Work
+ ## Online Courses and Volunteer Work
  
  * **Quantum Computing Scholar**, Sep 2023 - April 2024
   * Organization: The Coding School
