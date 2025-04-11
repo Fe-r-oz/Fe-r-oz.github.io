@@ -32,14 +32,14 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
 ## Career Break/Gap Year
-* **Open Source Contributor**, Oct 2024 - Present
+* **Open Source Contributor**, Oct 2023 - Present
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
     - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
     - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
     - Ongoing Project: **[Compute the minimum distance of QLDPC using Linear Programming](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
   * I am deeply grateful to be working under the wonderful mentorship and supervision of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
 
-* **Open Source Contributor**, UnitaryFund Hackathon, June 2024 - June 2024
+In addition,
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
   * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
   * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
