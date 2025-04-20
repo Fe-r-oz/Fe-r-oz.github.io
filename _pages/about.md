@@ -22,29 +22,28 @@ redirect_from:
 </div>
 
 
-## Short Background
+## SHORT BACKGROUND
 I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023. Following my graduation, I served as a Research Assistant at the Smart Networking Research Group at FAST-NUCES from February 2023 to February 2024, under the supervision of Prof. Saima Zafar. We achieved a novel milestone by pioneering the first application of High-Level Synthesis for Machine Learning in medical applications. My work was published in IEEE Embedded Systems Letters (Impact Factor: 1.7).
 
-## Education
+## EDUCATION
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
   * Research Area: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
   * **Publication**: **Feroz Ahmad**, Saima Zafar, "***SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML***". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
-## Career Break/Gap Year
+## CAREER BREAK/GAP YEAR
 * **Open Source Contributor**, Oct 2023 - Present
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
-    - Ongoing Project: **[Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/issues/309)**: Improvements to non-Clifford functionality and Pauli measurement algorithm for non-stabilizer and stabilizer states
-    - Ongoing Project: **[Extending the capabilities of 2BGA codes via Oscar's Group Algebra](https://github.com/QuantumSavory/QuantumClifford.jl/issues/396)**: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
-    - Ongoing Project: **[Compute the minimum distance of QLDPC using Linear Programming](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)**: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
-  * I am deeply grateful to be working under the wonderful mentorship and guidance of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
+    - Ongoing Project: Completing the non-Clifford capabilities
+    - Ongoing Project: Extending the capabilities of 2BGA codes via Oscar's Group Algebra: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
+    - Ongoing Project: Compute the minimum distance of QLDPC using Linear Programming: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
 
 In addition,
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
   * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
   * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
   
-## Work Experience
+## WORK EXPERIENCE/EMPLOYMENT
 
 * **Research Assistant**, NUCES, Feb 2023 - Sep 2023
   * Organization: National University of Computer and Emerging Sciences, Lahore, Pakistan.
@@ -66,21 +65,14 @@ In addition,
 * I am particularly excited about the prospect of collaboratively navigating through the intersections of different domains, fostering a holistic approach that can offer comprehensive and impactful solutions to the multifaceted challenges we face today.
 
 
- ## Online Courses and Volunteer Work
+## ONLINE COURSES/VOLUNTEER WORK
  
  * **Quantum Computing Scholar**, Sep 2023 - April 2024
-  * Organization: The Coding School
-  * Accepted into The Coding School’s-Qubit by Qubit: Introduction to Quantum Computing course, a two-semester program which provides a comprehensive introduction to quantum computing, covering topics like quantum mechanics, quantum information and computation, and quantum hardware.
-  * Semester 1 and 2: Grade: A
+    * Organization: The Coding School
+    * Completed Qubit by Qubit’s intensive two-semester course (The Coding School), covering quantum mechanics, algorithms, and hardware. Achieved Grade: A.
 
-* **Quantum Computing Fellow**, Sep 2023 - Nov 2023
+*  **Quantum Computing Scholar** and **Fellow**
    * Organization: Womanium
-   * Co-authored a case study titled ’Quantum Solutions Launchpad-Xanadu-Linear Combination of Unitaries decompositions’ with [Dr. Mojde Fadaie](https://scholar.google.com/citations?user=Sg4qHUAAAAAJ&hl=en).
-   * Authored the following sections in case study namely 1) Quantum Chemistry, 2) Unitarity from Marginal Probability Preservation in Quantum Mechanics, 3) Hamiltonian and Unitary Evolution in Quantum Systems, 4) LCU Method in Quantum Chemistry
-
-* **Global Quantum Computing Scholar**, July 2023 - Aug 2023
-  * Organization: Womanium
-  * 16x Publications on Medium with comprehensive analysis of the fundamentals as well as latest advancements on Superconducting, Neutral Atom, Photonic, Silicon, and Trapped Ion Quantum Computing.
-  * Founded [Quantum Engineering Publication](https://pragmaticlyabstract.medium.com/list/quantum-computingengineering-a2f46166b8b7), to promote Quantum Education In Pakistan.
-  * Led Womanium Global Media Project Initiative on LinkedIn, Twitter and Medium.
+   * Fellow (Sep 2023 - Nov 2023): Co-authored a case study on Quantum Solutions Launchpad-Xanadu-LCU decompositions with [Dr. Mojde Fadaie](https://scholar.google.com/citations?user=Sg4qHUAAAAAJ&hl=en).
+   * Quantum Computing Scholar (Jul 2023 - Aug 2023): Published articles on Medium covering fundamentals and advancements in quantum computing technologies
 
