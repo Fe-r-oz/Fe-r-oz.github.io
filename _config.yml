@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "FEROZ AHMED MIAN"
 title_separator          : "-"
-name                     : &name "FEROZ AHMED MIAN"
+name                     : &name "FEROZ AHMED MIAN فیروز احمد میاں"
 description              : &description "Incoming PhD Student at UMass Amherst"
 url                      : https://Fe-r-oz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "Fe-r-oz/Fe-r-oz.github.io"
 author:
   # Biographic information
   avatar           : "FEROZAHMEDMIAN.png"
-  name             : "FEROZ AHMED MIAN"
+  name             : "FEROZ AHMED MIAN فیروز احمد میاں"
   pronouns         :   
   bio              : "Incoming PhD Student at UMass Amherst"
   location         : "Lahore, Pakistan"
