@@ -8,20 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<div class="news-hover-container">
-  <div class="news-item">
-    <div class="news-content">
-      <h3>Latest News</h3>
-      <p> Invented <b>[[8rp, (8r − 2)p − 2m, 4]] Delfosse-Reichardt</b> Quantum Error Correcting Code! 
-          Stabilizer code implementation and decoder simulation at <a href="https://github.com/QuantumSavory/QuantumClifford.jl/pull/466" target="_blank"> QuantumClifford.jl PR #466</a>.
-          I am very grateful to <b> Dr. Nicolas Delfosse (IonQ)</b> and <b> Prof. Victor V. Albert (University of Maryland)</b> for helpful suggestions.
-          I am truly grateful to <b>Prof. Stefan Krastanov (University of Massachusetts Amherst)</b> for his guidance and mentorship.
-      </p>
-    </div>
-  </div>
-</div>
-
-
 ## SHORT BACKGROUND
 I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023. Following my graduation, I served as a Research Assistant at the Smart Networking Research Group at FAST-NUCES from February 2023 to February 2024, under the supervision of Prof. Saima Zafar. We achieved a novel milestone by pioneering the first application of High-Level Synthesis for Machine Learning in medical applications. My work was published in IEEE Embedded Systems Letters (Impact Factor: 1.7).
 
@@ -36,7 +22,8 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
  * My current projects as part of Quantum Savory organization open source bug bounty program includes the following: 
     - Ongoing Project: Completing the non-Clifford capabilities
     - Ongoing Project: Extending the capabilities of 2BGA codes via Oscar's Group Algebra: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
-    - Ongoing Project: Compute the minimum distance of QLDPC using Linear Programming: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes 
+    - Ongoing Project: Compute the minimum distance of QLDPC using Linear Programming: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes
+* I am grateful for the wonderful mentorship of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) from the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
 
 In addition,
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
