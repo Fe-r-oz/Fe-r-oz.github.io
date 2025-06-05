@@ -23,7 +23,7 @@ I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering
     - Ongoing Project: Completing the non-Clifford capabilities
     - Ongoing Project: Extending the capabilities of 2BGA codes via Oscar's Group Algebra: Extending the capabilities of quantum two-block group algebra (2BGA) codes using finitely presented groups and specific group presentations
     - Ongoing Project: Compute the minimum distance of QLDPC using Linear Programming: Using independent mixed integer linear programming solvers to compute the minimum distance (NP-hard) problem for quantum LDPC codes
-* I am grateful for the wonderful mentorship of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) from the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
+ * I am grateful for the wonderful mentorship of [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov) from the Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
 
 In addition,
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket. [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
