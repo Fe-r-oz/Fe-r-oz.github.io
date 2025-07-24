@@ -32,6 +32,8 @@ Thank you to Prof. Stefan Krastanov of Manning College of Information and Comput
       - [Extending the capabilities of two-block group algebra codes using finitely presented groups and group presentations](https://github.com/QuantumSavory/QuantumClifford.jl/pull/400)
       - [Compute the minimum distance of QLDPC using Mixed Integer Linear Programming](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)
       - [D-dimensional surface and toric codes via Oscar's chain complexes and GF2 homology](https://github.com/QuantumSavory/QuantumClifford.jl/pull/534)
+      - [Support non-abelian `LPCode` by generalizing to non-commutative group algebras](https://github.com/QuantumSavory/QuantumClifford.jl/pull/511)
+      - [Delfosse-Reichardt codes from classical self-orthogonal Reed-Muller seeds](https://github.com/QuantumSavory/QuantumClifford.jl/pull/466)
  * Mentor: [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov), University of Massachusetts Amherst.
  
 In addition,
