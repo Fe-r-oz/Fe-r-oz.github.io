@@ -16,7 +16,7 @@ Following my graduation, I worked as a Research Assistant at the Smart Networkin
 
 I chose to take gap years to further explore my academic interests—a decision that guided me toward pursuing a PhD in Computer Science. As an incoming doctoral candidate and dedicated researcher at University of Massachusetts Amherst, I am grateful to my family for their steadfast encouragement throughout this pivotal chapter of my life.
 
-Thank you to Prof. Stefan Krastanov of Manning College of Information and Computer Sciences at the University of Massachusetts Amherst for his wonderful mentorship and guidance as I embarked on this new journey.
+I am grateful to Prof. Stefan Krastanov of Manning College of Information and Computer Sciences at the University of Massachusetts Amherst for his wonderful mentorship and guidance as I embark on this new journey.
 
 ## Education
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
@@ -24,24 +24,27 @@ Thank you to Prof. Stefan Krastanov of Manning College of Information and Comput
   * **Publication**: **Feroz Ahmad**, Saima Zafar, "***SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML***". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
-## Gap Year
-* **Open Source Contributor**, Oct 2023 - Present
+## Work Experience
+
+* **Research Assistant**, UMass Amherst, Sep 2025 - Present
+  - Incoming first year PhD student at UMass Amherst, working as Research Assistant under supervision of Prof. Stefan Krastanov.
+
+## Gap Year Journey
+
+* **Open Source Contributor**, Oct 2023 - Aug 2025
  * My completed work includes contributions to [QuantumClifford.jl](https://github.com/QuantumSavory/QuantumClifford.jl) and bug bounties resolved under Quantum Savory's program:
     - Highlighted contributions:
       - [Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/pull/427)
-      - [Extending the capabilities of two-block group algebra codes using finitely presented groups and group presentations](https://github.com/QuantumSavory/QuantumClifford.jl/pull/400)
       - [Compute the minimum distance of QLDPC using Mixed Integer Linear Programming](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)
       - [D-dimensional surface and toric codes via Oscar's chain complexes and GF2 homology](https://github.com/QuantumSavory/QuantumClifford.jl/pull/534)
-      - [Support non-abelian `LPCode` by generalizing to non-commutative group algebras](https://github.com/QuantumSavory/QuantumClifford.jl/pull/511)
-      - [Delfosse-Reichardt codes from classical self-orthogonal Reed-Muller seeds](https://github.com/QuantumSavory/QuantumClifford.jl/pull/466)
- * Mentor: [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov), University of Massachusetts Amherst.
- 
+      - [Support non-abelian Lifted Product code by generalizing to non-commutative group algebras](https://github.com/QuantumSavory/QuantumClifford.jl/pull/511)
+      - [Extending the capabilities of two-block group algebra codes using finitely presented groups and group presentations](https://github.com/QuantumSavory/QuantumClifford.jl/pull/400)
+ * **Mentor:** [Prof. Stefan Krastanov](https://www.cics.umass.edu/about/directory/stefan-krastanov), University of Massachusetts Amherst.
+
 In addition,
   * Developed software for Quantum Optimal Control Theory and Amazon-Web-Services (AWS) Braket.
-  * [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard.
-  * Contributed to pure Julia Packages only, Top place by Julia contributions globally by any contributor.
-  * Packages: Braket.jl, BraketSimulator.jl, Piccolo.jl
-  
+  * [3rd rank globally](https://unitaryhack.dev/leaderboard/) on unitaryHack 2024 Leaderboard. Packages contributed to: Braket.jl, BraketSimulator.jl, Piccolo.jl
+
 ## Work Experience
 
 * **Research Assistant**, NUCES, Feb 2023 - Sep 2023
