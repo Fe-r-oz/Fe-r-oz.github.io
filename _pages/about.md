@@ -63,15 +63,3 @@ In addition,
 
 ## Research Interests 
 * **Research Area**: Quantum Error Correction
-
-## Online Courses/Volunteer Work
- 
- * **Quantum Computing Scholar**, Sep 2023 - April 2024
-    * Organization: The Coding School
-    * Completed Qubit by Qubit’s intensive two-semester course (The Coding School), covering quantum mechanics, algorithms, and hardware. Achieved Grade: A.
-
-*  **Quantum Computing Scholar** and **Fellow**
-   * Organization: Womanium
-   * Fellow (Sep 2023 - Nov 2023): Co-authored a case study on Quantum Solutions Launchpad-Xanadu-LCU decompositions with [Dr. Mojde Fadaie](https://scholar.google.com/citations?user=Sg4qHUAAAAAJ&hl=en).
-   * Quantum Computing Scholar (Jul 2023 - Aug 2023): Published articles on Medium covering fundamentals and advancements in quantum computing technologies
-
