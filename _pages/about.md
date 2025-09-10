@@ -34,6 +34,7 @@ I am grateful to Prof. Stefan Krastanov of Manning College of Information and Co
 * **Open Source Contributor**, Oct 2023 - Aug 2025
  * My completed work includes contributions to [QuantumClifford.jl](https://github.com/QuantumSavory/QuantumClifford.jl) and bug bounties resolved under Quantum Savory's program:
     - Highlighted contributions:
+      - [Invented [[n² + m², (n - rank([C ∣ M]))² + (m − rank([C ∣ M]ᵀ))², d]] Quantum Tillich-Zémor Code](https://github.com/QuantumSavory/QuantumClifford.jl/pull/476)
       - [Completing the non-Clifford capabilities](https://github.com/QuantumSavory/QuantumClifford.jl/pull/427)
       - [Compute the minimum distance of QLDPC using Mixed Integer Linear Programming](https://github.com/QuantumSavory/QuantumClifford.jl/pull/439)
       - [D-dimensional surface and toric codes via Oscar's chain complexes and GF2 homology](https://github.com/QuantumSavory/QuantumClifford.jl/pull/534)
