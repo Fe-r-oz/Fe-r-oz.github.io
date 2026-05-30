@@ -11,35 +11,21 @@ redirect_from:
 <section class="home-profile">
   <img class="home-profile__photo" src="{{ '/images/FEROZAHMEDMIAN.jpg' | relative_url }}" alt="Feroz Ahmed Mian">
   <div class="home-profile__content">
-    <p class="home-profile__eyebrow">PhD Student, Computer Science</p>
-    <h1>Feroz Ahmed Mian</h1>
-    <p class="home-profile__summary">I am a PhD student at the University of Massachusetts Amherst, working in quantum error correction and related computational methods.</p>
-    <button class="theme-toggle theme-toggle--home" type="button" aria-label="Switch to dark mode" aria-pressed="false">
-      <span class="theme-toggle__text">Dark mode</span>
-    </button>
+    <p class="home-profile__eyebrow">PhD Student at UMass Amherst</p>
+    <h3>Feroz Ahmed Mian</h3>
   </div>
 </section>
-
-## About Me
-
-I graduated magna cum laude with a Bachelor's degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023.
-
-From February 2023 to September 2023, I worked as a Research Assistant in the Smart Networking Research Group at FAST-NUCES under the supervision of Prof. Saima Zafar. During this time, our group explored the application of High-Level Synthesis for Machine Learning in medical systems, resulting in work published in *IEEE Embedded Systems Letters*.
-
-After graduation, I took time to further refine my academic interests, which led me to pursue doctoral study in Computer Science. I am currently a PhD student at the University of Massachusetts Amherst, where I have spent the past year developing my research interests and continuing my academic training.
-
-I am grateful to my family for their continued support, and to Prof. Stefan Krastanov at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst, for his mentorship and guidance during the first year of my doctoral studies.
 
 ## Education
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
   * Research Area: Deep Learning Accelerators, High Level Synthesis, Hardware-Software Codesign Workflow
-  * **Publication**: **Feroz Ahmad**, Saima Zafar, "***SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML***". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
+  * **Publication**: Feroz Ahmad Mian, Saima Zafar, "***SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML***". Published in IEEE Embedded Systems Letters Early Access ([IEEE ESL](https://ieeexplore.ieee.org/document/10399904)).
   * Supervisor: [Prof. Saima Zafar](https://lhr.nu.edu.pk/ee/facultyProfile/4198) in the [Smart Networking Research Group (SNRG)](https://lhr.nu.edu.pk/ee/research/snrg) at NUCES.
 
 ## Work Experience
 
 * **Research Assistant**, UMass Amherst, Sep 2025 - Present
-  - PhD student at UMass Amherst, working as a Research Assistant under the supervision of Prof. Stefan Krastanov.
+  - PhD student at UMass Amherst, advised by Prof. Stefan Krastanov.
 
 ## Gap Year Journey
 
