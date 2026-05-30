@@ -1,22 +1,34 @@
 ---
 permalink: /
-title: Welcome
+title:
 excerpt: 
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<section class="home-profile">
+  <img class="home-profile__photo" src="{{ '/images/FEROZAHMEDMIAN.jpg' | relative_url }}" alt="Feroz Ahmed Mian">
+  <div class="home-profile__content">
+    <p class="home-profile__eyebrow">PhD Student, Computer Science</p>
+    <h1>Feroz Ahmed Mian</h1>
+    <p class="home-profile__summary">I am a PhD student at the University of Massachusetts Amherst, working in quantum error correction and related computational methods.</p>
+    <button class="theme-toggle theme-toggle--home" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+      <span class="theme-toggle__text">Dark mode</span>
+    </button>
+  </div>
+</section>
+
 ## About Me
 
-I graduated Magna Cum Laude with a Bachelor’s degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023.
+I graduated magna cum laude with a Bachelor's degree in Electrical Engineering, specializing in Computer Engineering, from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore Campus, Pakistan, in June 2023.
 
-Following my graduation, I worked as a Research Assistant at the Smart Networking Research Group at FAST-NUCES from February 2023 to September 2023, under the supervision of Prof. Saima Zafar. We achieved a novel milestone by pioneering the first application of High-Level Synthesis for Machine Learning in medical applications. Our work was published in IEEE Embedded Systems Letters (Impact Factor: 1.7). 
+From February 2023 to September 2023, I worked as a Research Assistant in the Smart Networking Research Group at FAST-NUCES under the supervision of Prof. Saima Zafar. During this time, our group explored the application of High-Level Synthesis for Machine Learning in medical systems, resulting in work published in *IEEE Embedded Systems Letters*.
 
-I chose to take gap years to further explore my academic interests—a decision that guided me toward pursuing a PhD in Computer Science. As an incoming doctoral candidate and dedicated researcher at University of Massachusetts Amherst, I am grateful to my family for their steadfast encouragement throughout this pivotal chapter of my life.
+After graduation, I took time to further refine my academic interests, which led me to pursue doctoral study in Computer Science. I am currently a PhD student at the University of Massachusetts Amherst, where I have spent the past year developing my research interests and continuing my academic training.
 
-I am grateful to Prof. Stefan Krastanov of Manning College of Information and Computer Sciences at the University of Massachusetts Amherst for his wonderful mentorship and guidance as I embark on this new journey.
+I am grateful to my family for their continued support, and to Prof. Stefan Krastanov at the Manning College of Information and Computer Sciences, University of Massachusetts Amherst, for his mentorship and guidance during the first year of my doctoral studies.
 
 ## Education
 * B.S. in Electrical Engineering, National University of Computer and Emerging Sciences, in Lahore, Punjab, PK, Fall 2019 - Spring 2023
@@ -27,7 +39,7 @@ I am grateful to Prof. Stefan Krastanov of Manning College of Information and Co
 ## Work Experience
 
 * **Research Assistant**, UMass Amherst, Sep 2025 - Present
-  - Incoming first year PhD student at UMass Amherst, working as Research Assistant under supervision of Prof. Stefan Krastanov.
+  - PhD student at UMass Amherst, working as a Research Assistant under the supervision of Prof. Stefan Krastanov.
 
 ## Gap Year Journey
 

@@ -215,3 +215,57 @@ hr {
   justify-content: center;
   width: 1em;
 }
+
+.home-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 2.25rem;
+  padding: 1.75rem 0 2rem;
+  border-bottom: 1px solid var(--theme-border);
+}
+
+.home-profile__photo {
+  display: block;
+  width: min(250px, 72vw);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  border: 1px solid var(--theme-border);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+.home-profile__content h1 {
+  margin: 0 0 0.6rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.05;
+}
+
+.home-profile__eyebrow {
+  margin: 0 0 0.45rem;
+  color: var(--theme-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-profile__summary {
+  max-width: 42rem;
+  margin: 0 auto 1rem;
+  color: var(--theme-text);
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.theme-toggle--home {
+  position: static;
+}
+
+@media (max-width: 700px) {
+  .home-profile__summary {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
