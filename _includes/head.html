@@ -13,6 +13,21 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function () {
+    var savedTheme;
+
+    try {
+      savedTheme = localStorage.getItem("site-theme");
+    } catch (error) {
+      savedTheme = null;
+    }
+
+    if (savedTheme !== "light" && savedTheme !== "dark") {
+      savedTheme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    document.documentElement.setAttribute("data-theme", savedTheme);
+  })();
 </script>
 
 <!-- For all browsers -->
