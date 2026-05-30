@@ -12,7 +12,10 @@ redirect_from:
   <img class="home-profile__photo" src="{{ '/images/FEROZAHMEDMIAN.jpg' | relative_url }}" alt="Feroz Ahmed Mian">
   <div class="home-profile__content">
     <p class="home-profile__eyebrow">PhD Student at UMass Amherst</p>
-    <h3>Feroz Ahmed Mian</h3>
+    <h2>Feroz Ahmed Mian</h2>
+    <button class="theme-toggle theme-toggle--home" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+      <span class="theme-toggle__text">Dark mode</span>
+    </button>
   </div>
 </section>
 
