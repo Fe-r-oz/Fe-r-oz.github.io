@@ -15,15 +15,13 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item">
-            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
-              <span class="theme-toggle__icon" aria-hidden="true">☾</span>
-              <span class="theme-toggle__text">Dark</span>
-            </button>
-          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <button class="theme-toggle theme-toggle--floating" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-toggle__icon" aria-hidden="true">☾</span>
+        <span class="theme-toggle__text">Dark</span>
+      </button>
     </div>
   </div>
 </div>
