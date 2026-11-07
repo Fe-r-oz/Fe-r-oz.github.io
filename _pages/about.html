@@ -25,12 +25,11 @@ redirect_from:
   <p class="kicker">Papers</p>
   {% for p in d.publications %}
   <article class="paper">
-    <a class="paper__fig" href="{{ p.links[1].url }}"><img src="{{ p.image | relative_url }}" alt="Figure from {{ p.title }}" loading="lazy"></a>
+    <a class="paper__fig" href="{{ p.links[1].url }}"><img src="{{ p.image | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy"></a>
     <div>
       <p class="paper__meta">{{ p.year }} · arXiv{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}</p>
       <h2 class="paper__title">{{ p.title }}</h2>
       <p class="paper__authors">{{ p.authors }}</p>
-      <div class="chips">{% for c in p.chips %}<span class="chip">{{ c }}</span>{% endfor %}</div>
       <p class="paper__summary">{{ p.summary }}</p>
       <div class="paper__links">{% for l in p.links %}<a class="btn" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</div>
     </div>

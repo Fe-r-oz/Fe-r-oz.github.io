@@ -6,9 +6,8 @@ publications:
     venue: "arXiv 2026"
     note: "under revision"
     year: 2026
-    image: /images/research/mm-single-shot.png
+    image: /images/research/mm-codes-table.png
     summary: "A Koszul-complex description of abelian multicycle codes that covers bivariate bicycle, multivariate bicycle, 2BGA, generalized bicycle, tricycle and toric codes. It gives closed-form check and metacheck matrices for both sectors, so single-shot decoders can use the check redundancy directly. In our experiments, metachecks improve single-stage BP+OSD, and an overlapping-window decoder reaches low error rates with small windows."
-    chips: ["[[96,12,8]]", "[[144,12,12]]", "[[486,24,12]]", "[[630,70,9]]", "[[648,60,9]]"]
     links:
       - label: arXiv
         url: https://arxiv.org/abs/2601.18879
@@ -27,9 +26,8 @@ publications:
     venue: "arXiv 2026"
     note: "preprint"
     year: 2026
-    image: /images/research/qt-landscape.png
+    image: /images/research/qt-codes-table.png
     summary: "Do competitive quantum Tanner codes exist at practical sizes? A search over non-abelian groups, using both left–right Cayley complexes and lifts, says yes for n = 500–1000. Distances were cross-checked with QDistRnd and GPU-based sQetch, and the codes reach circuit-level pseudo-thresholds of 0.14–0.27% with the Tesseract decoder."
-    chips: ["[[720,6,(≤30,≤30)]]", "[[864,8,(≤39,≤31)]]", "[[672,4,(≤48,≤28)]]", "7 of 8 beyond d = √n"]
     links:
       - label: arXiv
         url: https://arxiv.org/abs/2608.12509
