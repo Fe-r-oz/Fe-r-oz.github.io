@@ -50,9 +50,9 @@ code { font: .86em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
 .about p { color: var(--ink-2); font-size: 1rem; }
 
 /* papers */
-.paper { display: grid; grid-template-columns: 210px 1fr; gap: 26px; padding: 24px; margin-bottom: 20px; background: #fff; border: 1px solid var(--line); border-radius: 16px; transition: border-color .15s, box-shadow .15s; }
+.paper { display: grid; grid-template-columns: 300px 1fr; gap: 26px; padding: 24px; margin-bottom: 20px; background: #fff; border: 1px solid var(--line); border-radius: 16px; transition: border-color .15s, box-shadow .15s; }
 .paper:hover { border-color: var(--turq); box-shadow: 0 6px 24px rgba(11, 119, 116, .08); }
-.paper__fig { background: #fff; border-radius: 10px; border: 1px solid var(--line); padding: 8px; align-self: start; }
+.paper__fig { background: #fff; border-radius: 10px; border: 1px solid var(--line); padding: 4px; align-self: start; }
 .paper__fig a { background-image: none; }
 .paper__meta { font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px; }
 .paper__meta .flag { color: var(--turq-ink); background: var(--turq-wash); border-radius: 999px; padding: 2px 9px; margin-left: 6px; letter-spacing: .04em; }
@@ -103,5 +103,5 @@ code { font: .86em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
   .main { padding: 32px 20px; }
   .lede { font-size: 1.35rem; }
   .paper { grid-template-columns: 1fr; padding: 18px; }
-  .paper__fig { max-width: 320px; }
+  .paper__fig { max-width: 420px; }
 }
