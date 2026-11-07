@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Feroz Ahmed Mian</title>
+  <meta name="description" content="Feroz Ahmed Mian, PhD student at UMass Amherst working on quantum LDPC codes and single-shot decoding.">
+  <meta property="og:title" content="Feroz Ahmed Mian">
+  <meta property="og:description" content="Quantum LDPC codes, single-shot decoding and fault-tolerant quantum error correction.">
+  <meta property="og:image" content="{{ '/images/FEROZAHMEDMIAN.jpg' | absolute_url }}">
+  <link rel="icon" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <a href="{{ '/' | relative_url }}"><img class="side__photo" src="{{ '/images/FEROZAHMEDMIAN.jpg' | relative_url }}" alt="Feroz Ahmed Mian"></a>
+      <h1 class="side__name"><a href="{{ '/' | relative_url }}">Feroz Ahmed Mian</a></h1>
+      <p class="side__ur" lang="ur">فیروز احمد میاں</p>
+      <p class="side__role">PhD student<br>UMass Amherst</p>
+      <nav class="side__nav" aria-label="Sections">
+        <a href="{{ '/#about' | relative_url }}">About</a>
+        <a href="{{ '/#papers' | relative_url }}">Papers</a>
+        <a href="{{ '/#news' | relative_url }}">News</a>
+        <a href="{{ '/#software' | relative_url }}">Software</a>
+        <a href="{{ '/#amherst' | relative_url }}">Amherst</a>
+        <a href="{{ '/awards/' | relative_url }}">Awards</a>
+      </nav>
+      <div class="side__links">
+        <a href="mailto:fmian@umass.edu">fmian@umass.edu</a>
+        <a href="{{ '/files/Feroz_Ahmed_Mian_CV.pdf' | relative_url }}">CV (PDF)</a>
+        <a href="https://scholar.google.com/citations?user=xdGGmiUAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://github.com/Fe-r-oz">GitHub</a>
+        <a href="https://orcid.org/0000-0001-6667-1403">ORCID</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      {{ content }}
+      <footer class="foot">
+        <span>© {{ site.time | date: "%Y" }} Feroz Ahmed Mian</span>
+        <span>Photographs of Amherst are my own.</span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

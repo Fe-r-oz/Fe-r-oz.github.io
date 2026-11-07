@@ -1,0 +1,72 @@
+# Content for the single-page research site (index). Edit here.
+
+publications:
+  - title: "Multivariate Multicycle Codes for Complete Single-Shot Decoding"
+    authors: "<b>Feroz Ahmed Mian</b>, Owen Gwilliam, Stefan Krastanov"
+    venue: "arXiv 2026"
+    note: "under revision"
+    year: 2026
+    image: /images/research/mm-single-shot.png
+    summary: "A Koszul-complex description of abelian multicycle codes that covers bivariate bicycle, multivariate bicycle, 2BGA, generalized bicycle, tricycle and toric codes. It gives closed-form check and metacheck matrices for both sectors, so single-shot decoders can use the check redundancy directly. In our experiments, metachecks improve single-stage BP+OSD, and an overlapping-window decoder reaches low error rates with small windows."
+    chips: ["[[96,12,8]]", "[[144,12,12]]", "[[486,24,12]]", "[[630,70,9]]", "[[648,60,9]]"]
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2601.18879
+      - label: paper
+        url: https://arxiv.org/pdf/2601.18879
+      - label: code
+        url: https://github.com/QuantumSavory/Multivariate-Multicycle-Codes-For-Complete-Single-Shot-Decoding
+      - label: data (Zenodo)
+        url: https://doi.org/10.5281/zenodo.18396531
+      - label: QEC 2026 poster
+        url: https://qec-conference.org/2026/schedule/#tuesday-session
+      - label: JuliaCon talk
+        url: https://pretalx.com/juliacon-2026/talk/F3RNYU/
+  - title: "Quantum Tanner Codes at Moderate Blocklength"
+    authors: "<b>Feroz Ahmed Mian</b>, Vaishnavi L. Addala, Arman Meraj, Adhiraj Chadha, Stefan Krastanov"
+    venue: "arXiv 2026"
+    note: "preprint"
+    year: 2026
+    image: /images/research/qt-landscape.png
+    summary: "Do competitive quantum Tanner codes exist at practical sizes? A search over non-abelian groups, using both left–right Cayley complexes and lifts, says yes for n = 500–1000. Distances were cross-checked with QDistRnd and GPU-based sQetch, and the codes reach circuit-level pseudo-thresholds of 0.14–0.27% with the Tesseract decoder."
+    chips: ["[[720,6,(≤30,≤30)]]", "[[864,8,(≤39,≤31)]]", "[[672,4,(≤48,≤28)]]", "7 of 8 beyond d = √n"]
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2608.12509
+      - label: paper
+        url: https://arxiv.org/pdf/2608.12509
+      - label: code (QuantumExpanders.jl)
+        url: https://github.com/QuantumSavory/QuantumExpanders.jl
+
+earlier:
+  - title: "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML"
+    authors: "<b>Feroz Ahmed Mian</b>, Saima Zafar"
+    venue: "IEEE Embedded Systems Letters, 2024"
+    url: https://ieeexplore.ieee.org/document/10399904
+
+news:
+  - date: "08/2026"
+    text: 'Released our preprint <a href="https://arxiv.org/abs/2608.12509">Quantum Tanner Codes at Moderate Blocklength</a> and the <code>QuantumExpanders.jl</code> library.'
+  - date: "08/2026"
+    text: 'Talk at <a href="https://pretalx.com/juliacon-2026/talk/F3RNYU/">JuliaCon 2026</a> on multivariate multicycle codes.'
+  - date: "06/2026"
+    text: 'Presented a poster on multivariate multicycle codes at <a href="https://qec-conference.org/2026/">QEC 2026</a>, the 8th International Conference on Quantum Error Correction, in Santa Barbara.'
+  - date: "01/2026"
+    text: 'Released our preprint <a href="https://arxiv.org/abs/2601.18879">Multivariate Multicycle Codes for Complete Single-Shot Decoding</a>.'
+  - date: "09/2025"
+    text: "Started my PhD at UMass Amherst with Prof. Stefan Krastanov."
+  - date: "06/2024"
+    text: 'Placed 3rd globally in <a href="https://unitaryhack.dev/leaderboard/">unitaryHack 2024</a>.'
+  - date: "01/2024"
+    text: 'Published <a href="https://ieeexplore.ieee.org/document/10399904">FPGA/SoC ECG classification work</a> in IEEE Embedded Systems Letters.'
+
+software:
+  - name: QuantumClifford.jl / QECCore.jl
+    url: https://github.com/QuantumSavory/QuantumClifford.jl
+    text: "Lead contributor of the error-correcting-code library: MM, generalized toric, D-dimensional surface and toric, non-abelian lifted product, two-block group algebra and tile codes, plus an exact MILP distance solver."
+  - name: QuantumExpanders.jl
+    url: https://github.com/QuantumSavory/QuantumExpanders.jl
+    text: "Quantum Tanner codes from Cayley complexes and lifts, search heuristics, and explicit Ramanujan graphs. Reproduces every code in the QT paper."
+  - name: Braket.jl · BraketSimulator.jl · Piccolo.jl
+    url: https://unitaryhack.dev/leaderboard/
+    text: "Contributions to AWS Braket tooling and quantum optimal control in Julia (unitaryHack 2024, 3rd globally)."
