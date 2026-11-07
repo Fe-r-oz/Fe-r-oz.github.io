@@ -25,7 +25,7 @@ redirect_from:
   <p class="kicker">Papers</p>
   {% for p in d.publications %}
   <article class="paper">
-    <a class="paper__fig" href="{{ p.links[1].url }}"><img src="{{ p.image | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy"></a>
+    <a class="paper__fig" href="{{ p.links[1].url }}"><img{% if p.image_dark %} class="img-light"{% endif %} src="{{ p.image | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% if p.image_dark %}<img class="img-dark" src="{{ p.image_dark | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% endif %}</a>
     <div>
       <p class="paper__meta">{{ p.year }} · arXiv{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}</p>
       <h2 class="paper__title">{{ p.title }}</h2>
