@@ -1,10 +1,12 @@
-# main links links
+# Main navigation (the research layout hard-codes the same links)
 main:
-  - title: "About Me"
-    url: /about/
-
+  - title: "Research"
+    url: /research/
   - title: "Publications"
     url: /publications/
-
+  - title: "Software"
+    url: /software/
+  - title: "CV"
+    url: /cv/
   - title: "Awards"
     url: /awards/

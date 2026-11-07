@@ -1,0 +1,84 @@
+---
+layout: research
+permalink: /
+title:
+redirect_from:
+  - /about/
+  - /about.html
+  - /research/
+  - /publications/
+  - /software/
+  - /cv/
+  - /resume
+---
+{% assign d = site.data.research %}
+
+<section id="about" class="block about">
+  <p class="kicker">About</p>
+  <p class="lede">I design quantum error-correcting codes that are <em>high-rate</em>, <em>single-shot decodable</em> and ready for real hardware.</p>
+  <p>I'm a PhD student in the <a href="https://www.cics.umass.edu">Manning College of Information and Computer Sciences</a> at UMass Amherst, advised by <a href="https://www.cics.umass.edu/about/directory/stefan-krastanov">Stefan Krastanov</a>, and I collaborate with <a href="https://www.umass.edu/mathematics-statistics/">Owen Gwilliam</a> in Mathematics.</p>
+  <p>My work builds quantum LDPC codes from algebra, using Koszul complexes, group algebras and Cayley complexes. I test them at practical sizes with circuit-level simulations in Stim and modern decoders. I also lead development of the error-correcting-code library in <a href="https://github.com/QuantumSavory/QuantumClifford.jl">QuantumClifford.jl</a>, so the codes in my papers can be built in a few lines of Julia.</p>
+  <p>Before quantum error correction I trained as an electrical engineer in Lahore, building FPGA and system-on-chip accelerators. I'm open to research internships in quantum error correction and fault-tolerant architectures; <a href="mailto:fmian@umass.edu">email me</a>.</p>
+</section>
+
+<section id="papers" class="block">
+  <p class="kicker">Papers</p>
+  {% for p in d.publications %}
+  <article class="paper">
+    <a class="paper__fig" href="{{ p.links[1].url }}"><img src="{{ p.image | relative_url }}" alt="Figure from {{ p.title }}" loading="lazy"></a>
+    <div>
+      <p class="paper__meta">{{ p.year }} · arXiv{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}</p>
+      <h2 class="paper__title">{{ p.title }}</h2>
+      <p class="paper__authors">{{ p.authors }}</p>
+      <div class="chips">{% for c in p.chips %}<span class="chip">{{ c }}</span>{% endfor %}</div>
+      <p class="paper__summary">{{ p.summary }}</p>
+      <div class="paper__links">{% for l in p.links %}<a class="btn" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</div>
+    </div>
+  </article>
+  {% endfor %}
+  {% for e in d.earlier %}
+  <p class="earlier">Earlier, in hardware: <a href="{{ e.url }}">{{ e.title }}</a>. {{ e.authors }}. <em>{{ e.venue }}</em>.</p>
+  {% endfor %}
+</section>
+
+<section id="news" class="block">
+  <p class="kicker">News</p>
+  <ul class="timeline">
+    {% for n in d.news %}
+    <li><time>{{ n.date }}</time>{{ n.text }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="software" class="block">
+  <p class="kicker">Software</p>
+  <div class="soft">
+    {% for s in d.software %}
+    <div class="soft__item">
+      <h3><a href="{{ s.url }}">{{ s.name }}</a></h3>
+      <p>{{ s.text }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="amherst" class="block">
+  <p class="kicker">Amherst, through my lens</p>
+  {% assign shown = 0 %}
+  <div class="gallery">
+    {% for f in site.static_files %}
+      {% if f.path contains "/images/amherst/" %}
+        {% assign ext = f.extname | downcase %}
+        {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" %}
+          {% assign shown = shown | plus: 1 %}
+          {% assign caption = f.basename | replace: "-", " " | replace: "_", " " %}
+          <figure>
+            <img src="{{ f.path | relative_url }}" alt="{{ caption }}" loading="lazy">
+            <figcaption>{{ caption }}</figcaption>
+          </figure>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% if shown == 0 %}<p class="gallery-empty">Photographs coming soon.</p>{% endif %}
+</section>
