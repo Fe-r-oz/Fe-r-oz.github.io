@@ -1,9 +1,12 @@
 # Content for the single-page research site (index). Edit here.
+# inspire: INSPIRE-HEP record id; citation counts are fetched live from inspirehep.net.
+inspire_author: F.A.Mian.1
 
 publications:
   - title: "Multivariate Multicycle Codes for Complete Single-Shot Decoding"
     authors: "<b>Feroz Ahmed Mian</b>, Owen Gwilliam, Stefan Krastanov"
-    venue: "arXiv 2026"
+    venue: "arXiv:2601.18879"
+    inspire: 3112120
     note: "under revision"
     year: 2026
     image: /images/research/mm-codes-table.png
@@ -28,7 +31,8 @@ publications:
         url: https://pretalx.com/juliacon-2026/talk/F3RNYU/
   - title: "Quantum Tanner Codes at Moderate Blocklength"
     authors: "<b>Feroz Ahmed Mian</b>, Vaishnavi L. Addala, Arman Meraj, Adhiraj Chadha, Stefan Krastanov"
-    venue: "arXiv 2026"
+    venue: "arXiv:2608.12509"
+    inspire: 3190832
     note: "preprint"
     year: 2026
     image: /images/research/qt-codes-table.png
@@ -45,6 +49,25 @@ publications:
       - label: code (QuantumExpanders.jl)
         url: https://github.com/QuantumSavory/QuantumExpanders.jl
 
+  - title: "Optimizing Compilation of Error Correction Codes for 2×n Quantum Dot Arrays and Its NP Hardness"
+    authors: "Anthony Micciche, <b>Feroz Ahmed Mian</b>, Anasua Chatterjee, Andrew McGregor, Stefan Krastanov"
+    venue: "Phys. Rev. Research 8, 013212"
+    inspire: 2869718
+    note: "published"
+    contribution: "My contribution: the quantum error-correcting codes used in the paper."
+    year: 2026
+    image: /images/research/dots-2xn.svg
+    image_dark: /images/research/dots-2xn-dark.svg
+    lead: "Compiling syndrome extraction for any CSS code onto two parallel quantum-dot arrays with few shuttles."
+    math: |
+      $$\#\text{shuttles}_{\min}=w_{\mathrm{col}}(H)$$
+      <p class="math-note">for column-regular qLDPC codes with Shor-style extraction; minimizing shuttles for general CSS codes is NP-hard.</p>
+    links:
+      - label: journal
+        url: https://doi.org/10.1103/l5y5-v3k7
+      - label: arXiv
+        url: https://arxiv.org/abs/2501.09061
+
 earlier:
   - title: "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML"
     authors: "<b>Feroz Ahmed Mian</b>, Saima Zafar"
@@ -58,6 +81,8 @@ news:
     text: 'Talk at <a href="https://pretalx.com/juliacon-2026/talk/F3RNYU/">JuliaCon 2026</a> on multivariate multicycle codes.'
   - date: "06/2026"
     text: 'Presented a poster on multivariate multicycle codes at <a href="https://qec-conference.org/2026/">QEC 2026</a>, the 8th International Conference on Quantum Error Correction, in Santa Barbara.'
+  - date: "02/2026"
+    text: 'Published <a href="https://doi.org/10.1103/l5y5-v3k7">Optimizing compilation of error correction codes for 2×n quantum dot arrays</a> in Physical Review Research.'
   - date: "01/2026"
     text: 'Released our preprint <a href="https://arxiv.org/abs/2601.18879">Multivariate Multicycle Codes for Complete Single-Shot Decoding</a>.'
   - date: "09/2025"
@@ -77,3 +102,15 @@ software:
   - name: Braket.jl · BraketSimulator.jl · Piccolo.jl
     url: https://unitaryhack.dev/leaderboard/
     text: "Contributions to AWS Braket tooling and quantum optimal control in Julia (unitaryHack 2024, 3rd globally)."
+
+collaborators:
+  - name: Stefan Krastanov
+    where: UMass Amherst (advisor)
+    url: https://www.cics.umass.edu/about/directory/stefan-krastanov
+  - name: Owen Gwilliam
+    where: UMass Amherst, Mathematics
+    url: https://www.umass.edu/mathematics-statistics/
+  - name: Anthony Micciche
+    where: UMass Amherst
+  - name: Vaishnavi L. Addala
+    where: MIT

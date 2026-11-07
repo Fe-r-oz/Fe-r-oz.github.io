@@ -32,9 +32,10 @@ redirect_from:
   <article class="paper">
     <a class="paper__fig" href="{{ p.links[1].url }}"><img{% if p.image_dark %} class="img-light"{% endif %} src="{{ p.image | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% if p.image_dark %}<img class="img-dark" src="{{ p.image_dark | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% endif %}</a>
     <div>
-      <p class="paper__meta">{{ p.year }} · arXiv{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}</p>
+      <p class="paper__meta">{{ p.year }} · {{ p.venue }}{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}{% if p.inspire %}<a class="cites" data-inspire="{{ p.inspire }}" href="https://inspirehep.net/literature?q=refersto%3Arecid%3A{{ p.inspire }}" hidden>cited by <b class="cites__n">0</b></a>{% endif %}</p>
       <h2 class="paper__title">{{ p.title }}</h2>
       <p class="paper__authors">{{ p.authors }}</p>
+      {% if p.contribution %}<p class="paper__role">{{ p.contribution }}</p>{% endif %}
       <p class="paper__lead">{{ p.lead }}</p>
       <div class="paper__math">{{ p.math }}</div>
       <div class="paper__links">{% for l in p.links %}<a class="btn" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</div>
@@ -65,6 +66,15 @@ redirect_from:
     </div>
     {% endfor %}
   </div>
+</section>
+
+<section id="collaborators" class="block">
+  <p class="kicker">Collaborators</p>
+  <ul class="people">
+    {% for c in d.collaborators %}
+    <li>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}<span class="people__name">{{ c.name }}</span>{% endif %}<span class="people__where">{{ c.where }}</span></li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section id="amherst" class="block">
