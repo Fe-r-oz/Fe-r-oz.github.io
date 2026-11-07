@@ -1,0 +1,29 @@
+{
+  "profile": "https://scholar.google.com/citations?user=xdGGmiUAAAAJ&hl=en",
+  "citations": 53,
+  "h_index": 3,
+  "i10_index": 2,
+  "papers": {
+    "xdGGmiUAAAAJ:u5HHmVD_uO8C": {
+      "title": "SoC-Based Implementation of 1-D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML",
+      "cited": 28,
+      "cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5091893729063132386"
+    },
+    "xdGGmiUAAAAJ:8k81kl-MbHgC": {
+      "title": "Multivariate Multicycle Codes for Complete Single-Shot Decoding",
+      "cited": 14,
+      "cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15860940679443897985"
+    },
+    "xdGGmiUAAAAJ:eQOLeE2rZwMC": {
+      "title": "Optimizing compilation of error correction codes for quantum dot arrays and its NP hardness",
+      "cited": 8,
+      "cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17490752455556825489"
+    },
+    "xdGGmiUAAAAJ:UebtZRa9Y70C": {
+      "title": "Quantum Tanner Codes at Moderate Blocklength",
+      "cited": 0,
+      "cites_url": ""
+    }
+  },
+  "updated": "2026-11-07"
+}

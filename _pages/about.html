@@ -32,7 +32,7 @@ redirect_from:
   <article class="paper">
     <a class="paper__fig" href="{{ p.links[1].url }}"><img{% if p.image_dark %} class="img-light"{% endif %} src="{{ p.image | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% if p.image_dark %}<img class="img-dark" src="{{ p.image_dark | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% endif %}</a>
     <div>
-      <p class="paper__meta">{{ p.year }} · {{ p.venue }}{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}{% if p.inspire %}<a class="cites" data-inspire="{{ p.inspire }}" href="https://inspirehep.net/literature?q=refersto%3Arecid%3A{{ p.inspire }}" hidden>cited by <b class="cites__n">0</b></a>{% endif %}</p>
+      <p class="paper__meta">{{ p.year }} · {{ p.venue }}{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}{% assign sp = site.data.scholar.papers[p.scholar] %}{% if sp and sp.cited > 0 %}<a class="cites" href="{{ sp.cites_url }}">cited by <b>{{ sp.cited }}</b></a>{% endif %}</p>
       <h2 class="paper__title">{{ p.title }}</h2>
       <p class="paper__authors">{{ p.authors }}</p>
       {% if p.contribution %}<p class="paper__role">{{ p.contribution }}</p>{% endif %}
@@ -43,7 +43,8 @@ redirect_from:
   </article>
   {% endfor %}
   {% for e in d.earlier %}
-  <p class="earlier">Earlier, in hardware: <a href="{{ e.url }}">{{ e.title }}</a>. {{ e.authors }}. <em>{{ e.venue }}</em>.</p>
+  {% assign ep = site.data.scholar.papers[e.scholar] %}
+  <p class="earlier">Earlier, in hardware: <a href="{{ e.url }}">{{ e.title }}</a>. {{ e.authors }}. <em>{{ e.venue }}</em>.{% if ep and ep.cited > 0 %} <a class="cites" href="{{ ep.cites_url }}">cited by <b>{{ ep.cited }}</b></a>{% endif %}</p>
   {% endfor %}
 </section>
 
