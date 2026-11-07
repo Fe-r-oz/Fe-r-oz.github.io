@@ -54,7 +54,7 @@ publications:
     venue: "Phys. Rev. Research 8, 013212"
     scholar: "xdGGmiUAAAAJ:eQOLeE2rZwMC"
     note: "published"
-    contribution: "I co-wrote the Codes Tested section and contributed the code implementations through QuantumClifford.jl."
+    contribution: "I wrote the Codes Tested section and contributed the code implementations through QuantumClifford.jl."
     year: 2026
     image: /images/research/dots-2xn.svg
     image_dark: /images/research/dots-2xn-dark.svg
