@@ -31,7 +31,7 @@ code { font: .86em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
 .side__photo { width: 168px; height: 168px; object-fit: cover; border-radius: 22px; box-shadow: 0 0 0 4px #fff, 0 0 0 6px var(--turq); margin-bottom: 22px; }
 .side__name { font: 600 1.6rem/1.15 var(--serif); margin: 0; letter-spacing: -.01em; }
 .side__name a { color: var(--ink); }
-.side__ur { color: var(--ink-3); font-size: 1rem; margin: 4px 0 8px; }
+.side__ur { font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif; font-weight: 600; font-size: 1.35rem; line-height: 2.1; color: var(--ink); text-align: left; margin: 0 0 6px; }
 .side__role { font-size: .9rem; color: var(--ink-2); margin-bottom: 26px; }
 .side__nav { display: flex; flex-direction: column; gap: 2px; margin-bottom: 26px; }
 .side__nav a { color: var(--ink-2); font-size: .92rem; font-weight: 600; padding: 5px 10px; margin-left: -10px; border-radius: 8px; }
@@ -96,6 +96,7 @@ code { font: .86em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
   .shell { grid-template-columns: 1fr; }
   .side { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 32px 22px 22px; text-align: center; }
   .side__photo { margin: 0 auto 18px; width: 140px; height: 140px; }
+  .side__ur { text-align: center; }
   .side__nav { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 4px; margin-bottom: 16px; }
   .side__nav a { margin: 0; }
   .side__links { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 6px 14px; }
