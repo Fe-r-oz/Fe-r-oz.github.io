@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="360" height="300" rx="10" fill="#ffffff"/>
+  <text x="180" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#15201f">2 × n quantum-dot arrays</text>
+  <text x="24" y="100" font-size="12" fill="#6a7877">data qubits</text>
+  <rect x="40" y="104" width="280" height="32" rx="16" fill="none" stroke="#6a7877" stroke-width="1.2"/>
+  <circle cx="60" cy="120" r="10" fill="#0b7774"/><circle cx="94" cy="120" r="10" fill="#0b7774"/><circle cx="128" cy="120" r="10" fill="#0b7774"/><circle cx="162" cy="120" r="10" fill="#0b7774"/><circle cx="196" cy="120" r="10" fill="#0b7774"/><circle cx="230" cy="120" r="10" fill="#0b7774"/><circle cx="264" cy="120" r="10" fill="#0b7774"/><circle cx="298" cy="120" r="10" fill="#0b7774"/>
+  <text x="24" y="180" font-size="12" fill="#6a7877">ancillas</text>
+  <rect x="40" y="184" width="300" height="32" rx="16" fill="none" stroke="#6a7877" stroke-width="1.2"/>
+  <circle cx="77" cy="200" r="10" fill="#1cb5b2"/><circle cx="111" cy="200" r="10" fill="#1cb5b2"/><circle cx="145" cy="200" r="10" fill="#1cb5b2"/><circle cx="179" cy="200" r="10" fill="#1cb5b2"/><circle cx="213" cy="200" r="10" fill="#1cb5b2"/><circle cx="247" cy="200" r="10" fill="#1cb5b2"/><circle cx="281" cy="200" r="10" fill="#1cb5b2"/><circle cx="315" cy="200" r="10" fill="#1cb5b2"/>
+  <path d="M110 248 H250" stroke="#0b7774" stroke-width="3" fill="none" marker-end="url(#a)"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0b7774"/></marker></defs>
+  <text x="180" y="276" text-anchor="middle" font-size="12.5" fill="#6a7877">shuttle the ancilla row</text>
+</svg>

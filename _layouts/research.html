@@ -30,11 +30,13 @@
       <h1 class="side__name"><a href="{{ '/' | relative_url }}">Feroz Ahmed Mian</a></h1>
       <p class="side__ur" lang="ur" dir="rtl">فیروز احمد میاں</p>
       <p class="side__role">PhD student<br>UMass Amherst</p>
+      <a class="side__cites" href="https://inspirehep.net/authors/3063363" hidden><b class="side__cites-n">0</b> citations · h-index <b class="side__h">0</b><span>INSPIRE, live</span></a>
       <nav class="side__nav" aria-label="Sections">
         <a href="{{ '/#about' | relative_url }}">About</a>
         <a href="{{ '/#papers' | relative_url }}">Papers</a>
         <a href="{{ '/#news' | relative_url }}">News</a>
         <a href="{{ '/#software' | relative_url }}">Software</a>
+        <a href="{{ '/#collaborators' | relative_url }}">Collaborators</a>
         <a href="{{ '/#amherst' | relative_url }}">Amherst</a>
         <a href="{{ '/awards/' | relative_url }}">Awards</a>
       </nav>
@@ -59,6 +61,34 @@
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/contrib/auto-render.min.js"
     onload="renderMathInElement(document.querySelector('.main'), {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false});"></script>
+  <script>
+    /* Live citation counts from the INSPIRE-HEP public API (CORS-enabled). */
+    (function () {
+      var url = "https://inspirehep.net/api/literature?q=a%20{{ site.data.research.inspire_author }}&fields=control_number,citation_count&size=100";
+      fetch(url, { headers: { Accept: "application/json" } })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (data) {
+          var counts = {}, list = [], total = 0;
+          data.hits.hits.forEach(function (h) {
+            var c = h.metadata.citation_count || 0;
+            counts[h.metadata.control_number] = c; list.push(c); total += c;
+          });
+          document.querySelectorAll(".cites[data-inspire]").forEach(function (el) {
+            var c = counts[el.getAttribute("data-inspire")];
+            if (c > 0) { el.querySelector(".cites__n").textContent = c; el.hidden = false; }
+          });
+          list.sort(function (a, b) { return b - a; });
+          var h = 0; while (h < list.length && list[h] >= h + 1) h++;
+          var side = document.querySelector(".side__cites");
+          if (side && total > 0) {
+            side.querySelector(".side__cites-n").textContent = total;
+            side.querySelector(".side__h").textContent = h;
+            side.hidden = false;
+          }
+        })
+        .catch(function () { /* leave badges hidden if INSPIRE is unreachable */ });
+    })();
+  </script>
   <script>
     (function () {
       var root = document.documentElement;
