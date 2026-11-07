@@ -1,12 +1,12 @@
 # Content for the single-page research site (index). Edit here.
-# inspire: INSPIRE-HEP record id; citation counts are fetched live from inspirehep.net.
-inspire_author: F.A.Mian.1
+# scholar: Google Scholar article id; citation counts come from _data/scholar.json,
+# refreshed daily by .github/workflows/scholar.yml.
 
 publications:
   - title: "Multivariate Multicycle Codes for Complete Single-Shot Decoding"
     authors: "<b>Feroz Ahmed Mian</b>, Owen Gwilliam, Stefan Krastanov"
     venue: "arXiv:2601.18879"
-    inspire: 3112120
+    scholar: "xdGGmiUAAAAJ:8k81kl-MbHgC"
     note: "under revision"
     year: 2026
     image: /images/research/mm-codes-table.png
@@ -32,7 +32,7 @@ publications:
   - title: "Quantum Tanner Codes at Moderate Blocklength"
     authors: "<b>Feroz Ahmed Mian</b>, Vaishnavi L. Addala, Arman Meraj, Adhiraj Chadha, Stefan Krastanov"
     venue: "arXiv:2608.12509"
-    inspire: 3190832
+    scholar: "xdGGmiUAAAAJ:UebtZRa9Y70C"
     note: "preprint"
     year: 2026
     image: /images/research/qt-codes-table.png
@@ -52,9 +52,9 @@ publications:
   - title: "Optimizing Compilation of Error Correction Codes for 2×n Quantum Dot Arrays and Its NP Hardness"
     authors: "Anthony Micciche, <b>Feroz Ahmed Mian</b>, Anasua Chatterjee, Andrew McGregor, Stefan Krastanov"
     venue: "Phys. Rev. Research 8, 013212"
-    inspire: 2869718
+    scholar: "xdGGmiUAAAAJ:eQOLeE2rZwMC"
     note: "published"
-    contribution: "My contribution: the quantum error-correcting codes used in the paper."
+    contribution: "I co-wrote the Codes Tested section and contributed the code implementations through QuantumClifford.jl."
     year: 2026
     image: /images/research/dots-2xn.svg
     image_dark: /images/research/dots-2xn-dark.svg
@@ -72,6 +72,7 @@ earlier:
   - title: "SoC-Based Implementation of 1D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML"
     authors: "<b>Feroz Ahmed Mian</b>, Saima Zafar"
     venue: "IEEE Embedded Systems Letters, 2024"
+    scholar: "xdGGmiUAAAAJ:u5HHmVD_uO8C"
     url: https://ieeexplore.ieee.org/document/10399904
 
 news:
