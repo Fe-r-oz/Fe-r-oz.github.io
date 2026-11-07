@@ -8,7 +8,11 @@ publications:
     year: 2026
     image: /images/research/mm-codes-table.png
     image_dark: /images/research/mm-codes-table-dark.png
-    summary: "A Koszul-complex description of abelian multicycle codes that covers bivariate bicycle, multivariate bicycle, 2BGA, generalized bicycle, tricycle and toric codes. It gives closed-form check and metacheck matrices for both sectors, so single-shot decoders can use the check redundancy directly. In our experiments, metachecks improve single-stage BP+OSD, and an overlapping-window decoder reaches low error rates with small windows."
+    lead: "Koszul-complex description of abelian multicycle codes, with explicit metachecks."
+    math: |
+      $$S=\mathbb{F}_2[x_1,\dots,x_D]\,/\,\langle x_i^{\ell_i}-1\rangle$$
+      $$K_{q-2}\xleftarrow{M_X}K_{q-1}\xleftarrow{P_X}K_{q}\xleftarrow{P_Z^{\top}}K_{q+1}\xleftarrow{M_Z^{\top}}K_{q+2}$$
+      <p class="math-note">$K_\bullet(F_1,\dots,F_t;S)$ with $F_i\in S$, $\;t=2q\ge 4$, $\;\operatorname{rank}K_k=\binom{t}{k}$, $\;M_XP_X=0=M_ZP_Z$</p>
     links:
       - label: arXiv
         url: https://arxiv.org/abs/2601.18879
@@ -29,7 +33,10 @@ publications:
     year: 2026
     image: /images/research/qt-codes-table.png
     image_dark: /images/research/qt-codes-table-dark.png
-    summary: "Do competitive quantum Tanner codes exist at practical sizes? A search over non-abelian groups, using both left–right Cayley complexes and lifts, says yes for n = 500–1000. Distances were cross-checked with QDistRnd and GPU-based sQetch, and the codes reach circuit-level pseudo-thresholds of 0.14–0.27% with the Tesseract decoder."
+    lead: "Explicit quantum Tanner codes from non-abelian groups at moderate blocklength."
+    math: |
+      $$X\leftrightarrow C_A\otimes C_B,\qquad Z\leftrightarrow C_A^{\perp}\otimes C_B^{\perp}$$
+      <p class="math-note">on $\mathrm{Cay}_2(G,A,B)$ with $G$ non-abelian, $\;n\in[500,1000]$, $\;d_{\min}>\sqrt{n}$ for 7 of 8 highlighted codes, $\;p_{\mathrm{th}}^{\mathrm{circ}}\approx 0.14\text{–}0.27\%$</p>
     links:
       - label: arXiv
         url: https://arxiv.org/abs/2608.12509
