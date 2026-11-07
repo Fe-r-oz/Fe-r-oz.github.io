@@ -13,6 +13,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Nastaliq+Urdu:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("site-theme"); } catch (e) {}
+      if (!t) t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
 </head>
 <body>
   <div class="shell">
@@ -36,6 +44,7 @@
         <a href="https://github.com/Fe-r-oz">GitHub</a>
         <a href="https://orcid.org/0000-0001-6667-1403">ORCID</a>
       </div>
+      <button class="theme-toggle" type="button" aria-label="Switch colour theme"><span class="theme-toggle__icon" aria-hidden="true"></span><span class="theme-toggle__label">Dark mode</span></button>
     </aside>
 
     <main class="main">
@@ -46,5 +55,20 @@
       </footer>
     </main>
   </div>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var btn = document.querySelector(".theme-toggle");
+      var label = btn.querySelector(".theme-toggle__label");
+      function sync() { label.textContent = root.getAttribute("data-theme") === "dark" ? "Light mode" : "Dark mode"; }
+      sync();
+      btn.addEventListener("click", function () {
+        var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("site-theme", next); } catch (e) {}
+        sync();
+      });
+    })();
+  </script>
 </body>
 </html>
