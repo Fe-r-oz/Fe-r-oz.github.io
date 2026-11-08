@@ -131,6 +131,26 @@ highlights:
     text: "Oscar's homology raised an error for chain complexes of modules over finite fields such as GF(2). I extended it upstream, then used Oscar chain complexes to build D-dimensional surface and toric codes in QuantumClifford.jl."
     math: '$$H_k=\ker\partial_k\,/\,\operatorname{im}\partial_{k+1}\quad\text{over }\mathbb{F}_2$$'
     also: '<a href="https://github.com/QuantumSavory/QuantumClifford.jl/pull/534">QuantumClifford.jl #534</a>'
+  - title: "Surface and toric codes in any dimension D"
+    repo: "QuantumClifford.jl"
+    pr: 534
+    url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/534
+    text: "Generalized the 2D, 3D and 4D surface and toric codes to arbitrary D, built as tensor products of repetition-code chain complexes in Oscar. The boundary maps give both parity checks and metachecks."
+    math: '$$\mathcal{C}=\mathcal{R}_L^{\otimes D},\qquad k=\dim H_q(\mathcal{C};\mathbb{F}_2)$$'
+  - title: "Homological and double homological product codes"
+    repo: "QuantumClifford.jl"
+    pr: 564
+    url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/564
+    text: "Multi-sector homological product codes from classical and quasi-cyclic codes, and the double homological product, built on the same Oscar homological algebra. I also wrote the Double Homological Product entry for the Error Correction Zoo."
+    math: '$$\mathcal{C}_1\otimes\mathcal{C}_2\otimes\cdots\otimes\mathcal{C}_D$$'
+    also: '<a href="https://github.com/errorcorrectionzoo/eczoo_data/pull/367">Error Correction Zoo</a>'
+  - title: "A bespoke quantum Tillich–Zémor code"
+    repo: "QuantumClifford.jl"
+    pr: 476
+    url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/476
+    text: "A hypergraph-product-style family built from a structured classical LDPC code with parity-check matrix [C | M]. I also contributed it to the Error Correction Zoo."
+    math: '$$[[\,n^2+m^2,\ k,\ d\,]],\quad H=[C\,|\,M]$$ $$k=(n-\operatorname{rk}H)^2+(m-\operatorname{rk}H^{\top})^2$$'
+    also: '<a href="https://github.com/errorcorrectionzoo/eczoo_data/pull/366">Error Correction Zoo</a>'
   - title: "Exact minimum distance by mixed-integer programming"
     repo: "QuantumClifford.jl"
     pr: 439

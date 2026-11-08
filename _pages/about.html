@@ -58,7 +58,7 @@ redirect_from:
       <p class="hl__text">{{ h.text }}</p>
       <div class="hl__math">{{ h.math }}</div>
       {% if h.quote %}<p class="hl__quote">{{ h.quote }}</p>{% endif %}
-      {% if h.also %}<p class="hl__also">Used in {{ h.also }}</p>{% endif %}
+      {% if h.also %}<p class="hl__also">{% if h.also contains "eczoo" %}Also in the {{ h.also }}{% else %}Used in {{ h.also }}{% endif %}</p>{% endif %}
     </article>
     {% endfor %}
   </div>
