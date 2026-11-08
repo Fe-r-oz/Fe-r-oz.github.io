@@ -115,3 +115,37 @@ collaborators:
     where: UMass Amherst
   - name: Vaishnavi L. Addala
     where: MIT
+
+highlights:
+  - title: "Fixed lifted product codes for non-abelian groups"
+    repo: "QuantumClifford.jl"
+    pr: 511
+    url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/511
+    text: "LPCode built non-commuting stabilizers whenever the group was non-abelian, because only the left regular representation was used. I switched one factor to the right regular representation, following Panteleev and Kalachev, which restores CSS orthogonality for any finite group."
+    math: '$$\lambda(a)\rho(b)=\rho(b)\lambda(a)\Rightarrow H_XH_Z^{\top}=0$$'
+    quote: "“This is great, a really solid improvement.” (Stefan Krastanov, review)"
+  - title: "Homology of chain complexes over GF(2), upstream in Oscar"
+    repo: "Oscar.jl"
+    pr: 5075
+    url: https://github.com/oscar-system/Oscar.jl/pull/5075
+    text: "Oscar's homology raised an error for chain complexes of modules over finite fields such as GF(2). I extended it upstream, then used Oscar chain complexes to build D-dimensional surface and toric codes in QuantumClifford.jl."
+    math: '$$H_k=\ker\partial_k\,/\,\operatorname{im}\partial_{k+1}\quad\text{over }\mathbb{F}_2$$'
+    also: '<a href="https://github.com/QuantumSavory/QuantumClifford.jl/pull/534">QuantumClifford.jl #534</a>'
+  - title: "Exact minimum distance by mixed-integer programming"
+    repo: "QuantumClifford.jl"
+    pr: 439
+    url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/439
+    text: "A solver-agnostic MILP formulation that certifies the distance of quantum LDPC codes. It is now the library's exact distance method, and I use it to certify code distances in my own work."
+    math: '$$d_Z=\min\{\,|x| : H_Xx=0,\ \ell\cdot x=1\,\}$$'
+  - title: "Pauli measurements on non-Clifford states"
+    repo: "QuantumClifford.jl"
+    pr: 427
+    url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/427
+    text: "In-place Pauli measurement for generalized stabilizer states, following Yoder's algorithm, so circuits with T gates can be simulated with measurements, without the state's inverse sparsity Λ growing."
+    math: '$$\Lambda(\chi'')\le\Lambda(\chi)$$'
+  - title: "Multivariate multicycle codes in QuantumClifford.jl"
+    repo: "QuantumClifford.jl"
+    pr: 606
+    url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/606
+    text: "The reference implementation of MM codes: Koszul matrices with each variable replaced by its circulant, and a metacheck interface so decoders can use the check redundancy."
+    math: '$$\partial_k=\mathrm{Koszul}_k(F_1,\dots,F_t)\big|_{x_i\mapsto C_{\ell_i}}$$'

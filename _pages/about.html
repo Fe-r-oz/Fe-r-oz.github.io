@@ -48,6 +48,22 @@ redirect_from:
   {% endfor %}
 </section>
 
+<section id="highlights" class="block">
+  <p class="kicker">Contributions I'm proud of</p>
+  <div class="hl">
+    {% for h in d.highlights %}
+    <article class="hl__item">
+      <a class="hl__pr" href="{{ h.url }}">{{ h.repo }} #{{ h.pr }}</a>
+      <h3 class="hl__title"><a href="{{ h.url }}">{{ h.title }}</a></h3>
+      <p class="hl__text">{{ h.text }}</p>
+      <div class="hl__math">{{ h.math }}</div>
+      {% if h.quote %}<p class="hl__quote">{{ h.quote }}</p>{% endif %}
+      {% if h.also %}<p class="hl__also">Used in {{ h.also }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
 <section id="news" class="block">
   <p class="kicker">News</p>
   <ul class="timeline">
