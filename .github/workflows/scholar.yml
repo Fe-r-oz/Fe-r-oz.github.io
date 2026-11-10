@@ -18,6 +18,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch Google Scholar profile
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python _scripts/update_scholar.py
       - name: Commit and rebuild site if numbers changed
         env:
