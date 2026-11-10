@@ -123,7 +123,6 @@ highlights:
     url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/511
     text: "LPCode built non-commuting stabilizers whenever the group was non-abelian, because only the left regular representation was used. I switched one factor to the right regular representation, following Panteleev and Kalachev, which restores CSS orthogonality for any finite group."
     math: '$$\lambda(a)\rho(b)=\rho(b)\lambda(a)\Rightarrow H_XH_Z^{\top}=0$$'
-    quote: "“This is great, a really solid improvement.” (Stefan Krastanov, review)"
   - title: "Homology of chain complexes over GF(2), upstream in Oscar"
     repo: "Oscar.jl"
     pr: 5075

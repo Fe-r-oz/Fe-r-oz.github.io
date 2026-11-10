@@ -5,6 +5,12 @@ Writes _data/scholar.json, which the site renders. Run by
 request or the page layout changes, the script leaves the existing file
 untouched and exits successfully, so the site keeps the last good numbers.
 
+Google Scholar usually blocks requests from GitHub's servers. If the
+repository has a SERPAPI_KEY secret (free plan at https://serpapi.com,
+about 30 requests a month needed), the script asks SerpAPI instead, which
+works from GitHub Actions. Running the script on your own computer also
+works, because Scholar does not block home connections.
+
 Usage: python _scripts/update_scholar.py [--html saved_profile.html]
 """
 import datetime
@@ -12,6 +18,7 @@ import html
 import json
 import os
 import sys
+import urllib.parse
 import urllib.request
 from html.parser import HTMLParser
 
@@ -92,18 +99,59 @@ def fetch():
         return r.read().decode("utf-8", "replace")
 
 
+def fetch_serpapi(key):
+    """Same result as parse(), from SerpAPI's google_scholar_author engine."""
+    q = urllib.parse.urlencode({"engine": "google_scholar_author", "author_id": USER,
+                                "hl": "en", "num": 100, "api_key": key})
+    with urllib.request.urlopen(f"https://serpapi.com/search.json?{q}", timeout=60) as r:
+        j = json.load(r)
+    table = {}
+    for row in j.get("cited_by", {}).get("table", []):
+        for name, vals in row.items():
+            table[name] = int(vals.get("all") or 0)
+    papers = {}
+    for a in j.get("articles", []):
+        cid = a.get("citation_id")
+        if not cid:
+            continue
+        cb = a.get("cited_by") or {}
+        papers[cid] = {"title": " ".join((a.get("title") or "").split()),
+                       "cited": int(cb.get("value") or 0),
+                       "cites_url": cb.get("link") or ""}
+    if "citations" not in table or not papers:
+        return None
+    return {
+        "profile": f"https://scholar.google.com/citations?user={USER}&hl=en",
+        "citations": table["citations"],
+        "h_index": table.get("h_index", 0),
+        "i10_index": table.get("i10_index", 0),
+        "papers": papers,
+    }
+
+
+def warn(msg):
+    # Shows up as a yellow warning on the GitHub Actions run page.
+    print(f"::warning::{msg}" if os.environ.get("GITHUB_ACTIONS") else msg)
+
+
 def main():
     if len(sys.argv) == 3 and sys.argv[1] == "--html":
         page = open(sys.argv[2], encoding="utf-8").read()
+        data = parse(page)
+    elif os.environ.get("SERPAPI_KEY"):
+        try:
+            data = fetch_serpapi(os.environ["SERPAPI_KEY"])
+        except Exception as e:
+            warn(f"SerpAPI request failed ({e}); keeping existing numbers.")
+            return 0
     else:
         try:
-            page = fetch()
+            data = parse(fetch())
         except Exception as e:  # blocked, rate-limited or offline
-            print(f"Could not reach Google Scholar ({e}); keeping existing numbers.")
+            warn(f"Could not reach Google Scholar ({e}); keeping existing numbers.")
             return 0
-    data = parse(page)
     if data is None:
-        print("Profile page did not parse (possibly a CAPTCHA); keeping existing numbers.")
+        warn("Google Scholar did not return the profile (probably blocked); keeping existing numbers. Add a SERPAPI_KEY secret to fix this.")
         return 0
     old = {}
     if os.path.exists(OUT):
