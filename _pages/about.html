@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: simple
 permalink: /
 title:
 redirect_from:
@@ -12,105 +12,67 @@ redirect_from:
   - /resume
 ---
 {% assign d = site.data.research %}
-
-<section id="about" class="block about">
-  <p class="kicker">About</p>
-  <p class="lede">I design quantum error-correcting codes that are <em>high-rate</em>, <em>single-shot decodable</em> and ready for real hardware.</p>
-  <p>PhD student at UMass Amherst (<a href="https://www.cics.umass.edu">Manning CICS</a>), advised by <a href="https://www.cics.umass.edu/about/directory/stefan-krastanov">Stefan Krastanov</a>; I also work with <a href="https://www.umass.edu/mathematics-statistics/">Owen Gwilliam</a>. I build quantum LDPC codes from algebra, simulate them at circuit level, and lead the code library in <a href="https://github.com/QuantumSavory/QuantumClifford.jl">QuantumClifford.jl</a>.</p>
-  <div class="seeking">
-    <span class="seeking__dot" aria-hidden="true"></span>
-    <div>
-      <p class="seeking__title">Seeking research internships</p>
-      <p>Quantum error correction and fault-tolerant architectures, with flexible timing. Happy to chat: <a href="mailto:fmian@umass.edu">fmian@umass.edu</a></p>
-    </div>
+<header class="top">
+  <div>
+    <h1>Feroz Ahmed Mian</h1>
+    <p class="urdu" lang="ur" dir="rtl">فیروز احمد میاں</p>
+    <p class="sub">PhD student, UMass Amherst</p>
   </div>
-</section>
+  <img src="{{ '/images/FEROZAHMEDMIAN.jpg' | relative_url }}" alt="Feroz Ahmed Mian">
+</header>
 
-<section id="papers" class="block">
-  <p class="kicker">Papers</p>
-  {% for p in d.publications %}
-  <article class="paper">
-    <a class="paper__fig" href="{{ p.links[1].url }}"><img{% if p.image_dark %} class="img-light"{% endif %} src="{{ p.image | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% if p.image_dark %}<img class="img-dark" src="{{ p.image_dark | relative_url }}" alt="Table of code instances from {{ p.title }}" loading="lazy">{% endif %}</a>
-    <div>
-      <p class="paper__meta">{{ p.year }} · {{ p.venue }}{% if p.note == "under revision" %}<span class="flag">under revision</span>{% endif %}{% assign sp = site.data.scholar.papers[p.scholar] %}{% if sp and sp.cited > 0 %}<a class="cites" href="{{ sp.cites_url }}">cited by <b>{{ sp.cited }}</b></a>{% endif %}</p>
-      <h2 class="paper__title">{{ p.title }}</h2>
-      <p class="paper__authors">{{ p.authors }}</p>
-      {% if p.contribution %}<p class="paper__role">{{ p.contribution }}</p>{% endif %}
-      <p class="paper__lead">{{ p.lead }}</p>
-      <div class="paper__math">{{ p.math }}</div>
-      <div class="paper__links">{% for l in p.links %}<a class="btn" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</div>
-    </div>
-  </article>
+<p>I'm a PhD student at the University of Massachusetts Amherst, advised by <a href="https://www.cics.umass.edu/about/directory/stefan-krastanov">Stefan Krastanov</a>.</p>
+
+<p>I'm interested in the algebraic structure behind quantum error-correcting codes, from asymptotically good lifted product and quantum Tanner codes to high-rate qLDPC codes, and in how that structure enables single-shot decoding and efficient fault-tolerant logic. I'm also the lead contributor to the error-correcting codes in <a href="https://github.com/QuantumSavory/QuantumClifford.jl">QuantumClifford.jl</a>.</p>
+
+<p>Before my PhD, I was an open-source developer with <a href="https://github.com/QuantumSavory">QuantumSavory</a> and worked on FPGA hardware for machine learning with Saima Zafar at FAST-NUCES in Lahore.</p>
+
+<p>I'm looking for research internships in quantum error correction. Feel free to get in touch.</p>
+
+<p class="contact">Email: <span>fmian (at) umass (dot) edu</span><br>
+<a href="{{ '/files/Feroz_Ahmed_Mian_CV.pdf' | relative_url }}">CV</a><span class="dot">·</span><a href="https://scholar.google.com/citations?user=xdGGmiUAAAAJ&amp;hl=en">Google Scholar</a><span class="dot">·</span><a href="https://github.com/Fe-r-oz">GitHub</a><span class="dot">·</span><a href="https://orcid.org/0000-0001-6667-1403">ORCID</a></p>
+
+<h2>News</h2>
+<ul class="dated">
+  {% for n in d.news limit: 6 %}
+  <li><time>{{ n.date }}</time><span>{{ n.text }}</span></li>
   {% endfor %}
-  {% for e in d.earlier %}
-  {% assign ep = site.data.scholar.papers[e.scholar] %}
-  <p class="earlier">Earlier, in hardware: <a href="{{ e.url }}">{{ e.title }}</a>. {{ e.authors }}. <em>{{ e.venue }}</em>.{% if ep and ep.cited > 0 %} <a class="cites" href="{{ ep.cites_url }}">cited by <b>{{ ep.cited }}</b></a>{% endif %}</p>
+</ul>
+
+<h2>Publications</h2>
+{% for p in d.publications %}
+{% assign sp = site.data.scholar.papers[p.scholar] %}
+<div class="pub">
+  <p class="title">{{ p.title }}</p>
+  <p>{{ p.authors }}</p>
+  <p class="meta">{{ p.venue }}, {{ p.year }}{% if p.note == "under revision" %} (under revision){% endif %}{% if sp and sp.cited > 0 %} · <a href="{{ sp.cites_url }}">cited by {{ sp.cited }}</a>{% endif %}</p>
+  <p class="links">{% for l in p.links %}{% unless l.label == "paper" %}{% unless forloop.first %}<span class="dot">·</span>{% endunless %}<a href="{{ l.url }}">{{ l.label }}</a>{% endunless %}{% endfor %}</p>
+</div>
+{% endfor %}
+
+<p class="note">Before quantum computing:</p>
+{% for e in d.earlier %}
+{% assign ep = site.data.scholar.papers[e.scholar] %}
+<div class="pub">
+  <p class="title">{{ e.title }}</p>
+  <p>{{ e.authors }}</p>
+  <p class="meta">{{ e.venue }}{% if ep and ep.cited > 0 %} · <a href="{{ ep.cites_url }}">cited by {{ ep.cited }}</a>{% endif %}</p>
+  <p class="links"><a href="{{ e.url }}">IEEE</a></p>
+</div>
+{% endfor %}
+
+<h2>Software</h2>
+<ul class="plain">
+  {% for s in d.software %}
+  <li><a href="{{ s.url }}">{{ s.name }}</a>. {{ s.text }}</li>
   {% endfor %}
-</section>
+</ul>
 
-<section id="highlights" class="block">
-  <p class="kicker">Contributions I'm proud of</p>
-  <div class="hl">
-    {% for h in d.highlights %}
-    <article class="hl__item">
-      <a class="hl__pr" href="{{ h.url }}">{{ h.repo }} #{{ h.pr }}</a>
-      <h3 class="hl__title"><a href="{{ h.url }}">{{ h.title }}</a></h3>
-      <p class="hl__text">{{ h.text }}</p>
-      <div class="hl__math">{{ h.math }}</div>
-      {% if h.quote %}<p class="hl__quote">{{ h.quote }}</p>{% endif %}
-      {% if h.also %}<p class="hl__also">{% if h.also contains "eczoo" %}Also in the {{ h.also }}{% else %}Used in {{ h.also }}{% endif %}</p>{% endif %}
-    </article>
-    {% endfor %}
-  </div>
-</section>
+<h2>Selected contributions</h2>
+<ul class="plain">
+  {% for h in d.highlights %}
+  <li><a href="{{ h.url }}">{{ h.title }}</a> <span class="small">({{ h.repo }} #{{ h.pr }})</span></li>
+  {% endfor %}
+</ul>
 
-<section id="news" class="block">
-  <p class="kicker">News</p>
-  <ul class="timeline">
-    {% for n in d.news %}
-    <li><time>{{ n.date }}</time>{{ n.text }}</li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section id="software" class="block">
-  <p class="kicker">Software</p>
-  <div class="soft">
-    {% for s in d.software %}
-    <div class="soft__item">
-      <h3><a href="{{ s.url }}">{{ s.name }}</a></h3>
-      <p>{{ s.text }}</p>
-    </div>
-    {% endfor %}
-  </div>
-</section>
-
-<section id="collaborators" class="block">
-  <p class="kicker">Collaborators</p>
-  <ul class="people">
-    {% for c in d.collaborators %}
-    <li>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}<span class="people__name">{{ c.name }}</span>{% endif %}<span class="people__where">{{ c.where }}</span></li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section id="amherst" class="block">
-  <p class="kicker">Amherst, through my lens</p>
-  {% assign shown = 0 %}
-  <div class="gallery">
-    {% for f in site.static_files %}
-      {% if f.path contains "/images/amherst/" %}
-        {% assign ext = f.extname | downcase %}
-        {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" %}
-          {% assign shown = shown | plus: 1 %}
-          {% assign caption = f.basename | replace: "-", " " | replace: "_", " " %}
-          <figure>
-            <img src="{{ f.path | relative_url }}" alt="{{ caption }}" loading="lazy">
-            <figcaption>{{ caption }}</figcaption>
-          </figure>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  </div>
-  {% if shown == 0 %}<p class="gallery-empty">Photographs coming soon.</p>{% endif %}
-</section>
+<footer><a href="{{ '/awards/' | relative_url }}">Honors and awards</a></footer>

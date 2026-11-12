@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Feroz Ahmed Mian</title>
+  <meta name="author" content="Feroz Ahmed Mian">
+  <meta name="description" content="Feroz Ahmed Mian, PhD student at UMass Amherst working on quantum error-correcting codes.">
+  <meta property="og:title" content="Feroz Ahmed Mian">
+  <meta property="og:description" content="PhD student at UMass Amherst working on quantum error-correcting codes.">
+  <meta property="og:image" content="{{ '/images/FEROZAHMEDMIAN.jpg' | absolute_url }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Noto+Nastaliq+Urdu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/simple.css' | relative_url }}">
+</head>
+<body>
+  <main>
+{{ content }}
+  </main>
+</body>
+</html>
