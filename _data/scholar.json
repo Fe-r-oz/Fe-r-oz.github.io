@@ -1,12 +1,12 @@
 {
   "profile": "https://scholar.google.com/citations?user=xdGGmiUAAAAJ&hl=en",
-  "citations": 54,
+  "citations": 55,
   "h_index": 3,
   "i10_index": 2,
   "papers": {
     "xdGGmiUAAAAJ:u5HHmVD_uO8C": {
       "title": "SoC-Based Implementation of 1-D Convolutional Neural Network for 3-Channel ECG Arrhythmia Classification via HLS4ML",
-      "cited": 28,
+      "cited": 29,
       "cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5091893729063132386"
     },
     "xdGGmiUAAAAJ:8k81kl-MbHgC": {
@@ -19,11 +19,21 @@
       "cited": 8,
       "cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17490752455556825489"
     },
+    "xdGGmiUAAAAJ:IjCSPb-OGe4C": {
+      "title": "QuantumSavory/QuantumClifford. jl: v0. 9.16",
+      "cited": 2,
+      "cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1676740858067055283"
+    },
+    "xdGGmiUAAAAJ:UeHWp8X0CEIC": {
+      "title": "QuantumSavory/QuantumClifford. jl: v0. 10.0",
+      "cited": 1,
+      "cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8250246989661074480"
+    },
     "xdGGmiUAAAAJ:UebtZRa9Y70C": {
       "title": "Quantum Tanner Codes at Moderate Blocklength",
       "cited": 0,
       "cites_url": ""
     }
   },
-  "updated": "2026-11-10"
+  "updated": "2026-11-24"
 }
