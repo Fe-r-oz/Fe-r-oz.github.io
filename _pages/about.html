@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: home
 permalink: /
 title:
 redirect_from:
@@ -12,67 +12,97 @@ redirect_from:
   - /resume
 ---
 {% assign d = site.data.research %}
-<header class="top">
+<div class="wrap">
+
+<section id="about" class="hero">
   <div>
+    <p class="eyebrow">University of Massachusetts Amherst</p>
     <h1>Feroz Ahmed Mian</h1>
     <p class="urdu" lang="ur" dir="rtl">فیروز احمد میاں</p>
-    <p class="sub">Quantum error correction · PhD student in Computer Science, UMass Amherst</p>
+    <p class="role">Computer Science PhD student · Quantum error correction</p>
+    <div class="bio">
+      <p>I work on <strong>quantum error correction</strong>, focusing on the <strong>algebraic structure of quantum LDPC codes</strong> and how it enables <strong>single-shot decoding</strong> and efficient <strong>fault-tolerant logic</strong>. I'm the lead contributor to the error-correcting codes in <a href="https://github.com/QuantumSavory/QuantumClifford.jl">QuantumClifford.jl</a>, and I work with <a href="https://www.cics.umass.edu/about/directory/stefan-krastanov">Stefan Krastanov</a>.</p>
+      <p>I'm looking for research internships in quantum error correction.</p>
+    </div>
+    <div class="buttons">
+      <a class="btn" href="#papers">Selected papers</a>
+      <a class="btn btn--solid" data-mail="ude.ssamu@naimf" href="#about">Email</a>
+      <a class="btn" href="https://scholar.google.com/citations?user=xdGGmiUAAAAJ&amp;hl=en">Google Scholar</a>
+      <a class="btn" href="https://github.com/Fe-r-oz">GitHub</a>
+    </div>
   </div>
-  <img src="{{ '/images/FEROZAHMEDMIAN.jpg' | relative_url }}" alt="Feroz Ahmed Mian">
-</header>
+  <div class="hero__photo"><img src="{{ '/images/FEROZAHMEDMIAN.jpg' | relative_url }}" alt="Feroz Ahmed Mian"></div>
+</section>
 
-<p>I work on quantum error correction, focusing on the algebraic structure of quantum LDPC codes: from asymptotically good lifted product and quantum Tanner codes to high-rate qLDPC codes, and how that structure enables single-shot decoding and efficient fault-tolerant logic.</p>
+<section id="updates" class="split">
+  <h2>Updates</h2>
+  <div class="updates">
+    <ul>
+      {% for n in d.news %}
+      <li><time>{{ n.date }}</time><span>{{ n.text }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
-<p>My work on multivariate multicycle (MM) codes reformulates abelian multicycle codes through Koszul complexes, unifying bivariate bicycle, generalized bicycle, tricycle and toric codes and supplying metachecks for complete single-shot decoding. I have also built quantum Tanner codes from non-abelian groups at moderate blocklengths, and I'm the lead contributor to the error-correcting codes in <a href="https://github.com/QuantumSavory/QuantumClifford.jl">QuantumClifford.jl</a>.</p>
+<section id="research">
+  <h2>Research</h2>
+  <p class="lede">I use homological and commutative algebra, group theory and expander graphs to build quantum LDPC codes, and I test them under circuit-level noise with Stim and modern decoders. I'm most interested in codes whose structure makes them both efficient and practical, from asymptotically good lifted product and quantum Tanner codes to high-rate qLDPC codes.</p>
 
-<p>I'm a PhD student in Computer Science at UMass Amherst, working with <a href="https://www.cics.umass.edu/about/directory/stefan-krastanov">Stefan Krastanov</a>.</p>
-
-<p>I'm looking for research internships in quantum error correction. Feel free to get in touch.</p>
-
-<p class="contact">Email: <span>fmian (at) umass (dot) edu</span><br>
-<a href="{{ '/files/Feroz_Ahmed_Mian_CV.pdf' | relative_url }}">CV</a><span class="dot">·</span><a href="https://scholar.google.com/citations?user=xdGGmiUAAAAJ&amp;hl=en">Google Scholar</a><span class="dot">·</span><a href="https://github.com/Fe-r-oz">GitHub</a><span class="dot">·</span><a href="https://orcid.org/0000-0001-6667-1403">ORCID</a></p>
-
-<h2>News</h2>
-<ul class="dated">
-  {% for n in d.news limit: 6 %}
-  <li><time>{{ n.date }}</time><span>{{ n.text }}</span></li>
+  <h3 class="sub" id="papers">Selected papers</h3>
+  <div class="cards">
+    {% for p in d.publications %}
+    {% assign sp = site.data.scholar.papers[p.scholar] %}
+    <article class="card">
+      {% if p.image %}
+      <div class="card__fig">
+        <picture>
+          {% if p.image_dark %}<source srcset="{{ p.image_dark | relative_url }}" media="(prefers-color-scheme: dark)">{% endif %}
+          <img src="{{ p.image | relative_url }}" alt="{{ p.image_alt }}">
+        </picture>
+      </div>
+      {% endif %}
+      <p class="card__meta">{{ p.venue }} · {{ p.year }}{% if p.note == "under revision" %} · under revision{% endif %}{% if sp and sp.cited > 0 %} · <a href="{{ sp.cites_url }}">cited by {{ sp.cited }}</a>{% endif %}</p>
+      <h3>{{ p.title }}</h3>
+      <p class="card__authors">{{ p.authors }}</p>
+      <p class="card__sum">{{ p.summary }}</p>
+      {% if p.presented %}<p class="card__note">{{ p.presented }}</p>{% endif %}
+      <div class="card__links">
+        {% for l in p.links %}{% unless l.label == "paper" %}<a class="btn" href="{{ l.url }}">{{ l.label }}</a>{% endunless %}{% endfor %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% for e in d.earlier %}
+  <p class="earlier">Before quantum computing: <a href="{{ e.url }}">{{ e.title }}</a>, {{ e.venue }}.</p>
   {% endfor %}
-</ul>
+</section>
 
-<h2>Publications</h2>
-{% for p in d.publications %}
-{% assign sp = site.data.scholar.papers[p.scholar] %}
-<div class="pub">
-  <p class="title">{{ p.title }}</p>
-  <p>{{ p.authors }}</p>
-  <p class="meta">{{ p.venue }}, {{ p.year }}{% if p.note == "under revision" %} (under revision){% endif %}{% if sp and sp.cited > 0 %} · <a href="{{ sp.cites_url }}">cited by {{ sp.cited }}</a>{% endif %}</p>
-  <p class="links">{% for l in p.links %}{% unless l.label == "paper" %}{% unless forloop.first %}<span class="dot">·</span>{% endunless %}<a href="{{ l.url }}">{{ l.label }}</a>{% endunless %}{% endfor %}</p>
+<section id="software">
+  <h2>Software</h2>
+  <div class="sw">
+    {% for s in d.software %}
+    <div class="card">
+      <h3><a href="{{ s.url }}">{{ s.name }}</a></h3>
+      <p>{{ s.text }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <h3 class="sub">Selected contributions</h3>
+  <ul class="prs">
+    {% for h in d.highlights %}
+    <li><a href="{{ h.url }}">{{ h.title }}</a> <span>{{ h.repo }} #{{ h.pr }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="experience" class="split">
+  <h2>Experience</h2>
+  <ul class="exp">
+    {% for x in d.experience %}
+    <li><time>{{ x.when }}</time><span><strong>{{ x.where }}</strong>{{ x.role }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+
 </div>
-{% endfor %}
-
-<p class="note">Before quantum computing:</p>
-{% for e in d.earlier %}
-{% assign ep = site.data.scholar.papers[e.scholar] %}
-<div class="pub">
-  <p class="title">{{ e.title }}</p>
-  <p>{{ e.authors }}</p>
-  <p class="meta">{{ e.venue }}{% if ep and ep.cited > 0 %} · <a href="{{ ep.cites_url }}">cited by {{ ep.cited }}</a>{% endif %}</p>
-  <p class="links"><a href="{{ e.url }}">IEEE</a></p>
-</div>
-{% endfor %}
-
-<h2>Software</h2>
-<ul class="plain">
-  {% for s in d.software %}
-  <li><a href="{{ s.url }}">{{ s.name }}</a>. {{ s.text }}</li>
-  {% endfor %}
-</ul>
-
-<h2>Selected contributions</h2>
-<ul class="plain">
-  {% for h in d.highlights %}
-  <li><a href="{{ h.url }}">{{ h.title }}</a> <span class="small">({{ h.repo }} #{{ h.pr }})</span></li>
-  {% endfor %}
-</ul>
-
-<footer><a href="{{ '/awards/' | relative_url }}">Honors and awards</a></footer>

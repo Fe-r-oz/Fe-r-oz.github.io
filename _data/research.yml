@@ -9,9 +9,11 @@ publications:
     scholar: "xdGGmiUAAAAJ:8k81kl-MbHgC"
     note: "under revision"
     year: 2026
-    image: /images/research/mm-codes-table.png
-    image_dark: /images/research/mm-codes-table-dark.png
+    image: /images/research/mm-subfamilies.png
+    image_alt: "Subfamilies of multivariate multicycle codes (Fig. 2 of the paper)"
     lead: "Koszul-complex description of abelian multicycle codes, with explicit metachecks."
+    summary: "A Koszul-complex framework for abelian multicycle codes that unifies bicycle, tricycle and toric codes and supplies metachecks for complete single-shot decoding."
+    presented: "Poster at QEC 2026 and talk at JuliaCon 2026."
     math: |
       $$S=\mathbb{F}_2[x_1,\dots,x_D]\,/\,\langle x_i^{\ell_i}-1\rangle$$
       $$K_{q-2}\xleftarrow{M_X}K_{q-1}\xleftarrow{P_X}K_{q}\xleftarrow{P_Z^{\top}}K_{q+1}\xleftarrow{M_Z^{\top}}K_{q+2}$$
@@ -38,6 +40,7 @@ publications:
     image: /images/research/qt-codes-table.png
     image_dark: /images/research/qt-codes-table-dark.png
     lead: "Explicit quantum Tanner codes from non-abelian groups at moderate blocklength."
+    summary: "Explicit quantum Tanner codes from non-abelian groups with 500 to 1,000 qubits, released with the QuantumExpanders.jl library."
     math: |
       $$X\leftrightarrow C_A\otimes C_B,\qquad Z\leftrightarrow C_A^{\perp}\otimes C_B^{\perp}$$
       <p class="math-note">on $\mathrm{Cay}_2(G,A,B)$ with $G$ non-abelian, $\;n\in[500,1000]$, $\;d_{\min}>\sqrt{n}$ for 7 of 8 highlighted codes, $\;p_{\mathrm{th}}^{\mathrm{circ}}\approx 0.14\text{–}0.27\%$</p>
@@ -59,6 +62,7 @@ publications:
     image: /images/research/dots-2xn.svg
     image_dark: /images/research/dots-2xn-dark.svg
     lead: "Compiling syndrome extraction for any CSS code onto two parallel quantum-dot arrays with few shuttles."
+    summary: "Compiling syndrome extraction for CSS codes onto 2×n quantum-dot arrays with few shuttling steps, and proving that optimal compilation is NP-hard."
     math: |
       $$\#\text{shuttles}_{\min}=w_{\mathrm{col}}(H)$$
       <p class="math-note">for column-regular qLDPC codes with Shor-style extraction; minimizing shuttles for general CSS codes is NP-hard.</p>
@@ -168,3 +172,14 @@ highlights:
     url: https://github.com/QuantumSavory/QuantumClifford.jl/pull/606
     text: "The reference implementation of MM codes: Koszul matrices with each variable replaced by its circulant, and a metacheck interface so decoders can use the check redundancy."
     math: '$$\partial_k=\mathrm{Koszul}_k(F_1,\dots,F_t)\big|_{x_i\mapsto C_{\ell_i}}$$'
+
+experience:
+  - when: "Sep 2025 – present"
+    where: "University of Massachusetts Amherst"
+    role: "PhD research in quantum error correction, with Stefan Krastanov"
+  - when: "Oct 2023 – Aug 2025"
+    where: "QuantumSavory"
+    role: "Open-source QEC developer; lead contributor to the error-correcting codes in QuantumClifford.jl and QECCore.jl"
+  - when: "Feb – Sep 2023"
+    where: "FAST-NUCES, Lahore"
+    role: "Research assistant; FPGA/SoC hardware for machine learning, with Saima Zafar"

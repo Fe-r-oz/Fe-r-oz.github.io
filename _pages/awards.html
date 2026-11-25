@@ -1,16 +1,17 @@
 ---
-layout: simple
+layout: home
 title: Awards
 permalink: /awards/
 ---
-<p class="small"><a href="{{ '/' | relative_url }}">← Feroz Ahmed Mian</a></p>
-<h1>Honors and awards</h1>
-{% assign awards = site.awards | sort: "date" | reverse %}
-<ul class="dated" style="margin-top:28px">
-  {% for award in awards %}
-  <li>
-    <time>{{ award.date | date: "%m/%Y" }}</time>
-    <span>{% if award.award_link and award.award_link != "" %}<a href="{{ award.award_link }}">{{ award.title }}</a>{% else %}{{ award.title }}{% endif %}</span>
-  </li>
-  {% endfor %}
-</ul>
+<div class="wrap page">
+  <h1>Honors and awards</h1>
+  {% assign awards = site.awards | sort: "date" | reverse %}
+  <ul class="exp">
+    {% for award in awards %}
+    <li>
+      <time>{{ award.date | date: "%m/%Y" }}</time>
+      <span>{% if award.award_link and award.award_link != "" %}<a href="{{ award.award_link }}">{{ award.title }}</a>{% else %}{{ award.title }}{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
